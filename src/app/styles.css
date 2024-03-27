@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Allita";
+  src: url("../../public/fonts/Sweet-Allita.ttf") format("woff2"),
+    url("../../public/fonts/Sweet-Allita.ttf") format("woff");
+  /* Add additional font formats if necessary */
+  /* Specify font-weight and font-style if needed */
+  font-weight: bold;
+  font-style: normal;
+}
+/* .text-wrapper { */
+/* display: flex;
+  justify-self: flex-start;
+  overflow: hidden; */
+/* } */ /* animation: move-rtl 6000ms linear infinite;
+  padding: 0 6rem;
+  overflow: hidden;*/
+.animate {
+  position: relative;
+  width: 300%;
+  top: 50%;
+  transform: translate(0, -50%);
+  white-space: nowrap;
+  animation: marquee 8s infinite linear;
+}
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
