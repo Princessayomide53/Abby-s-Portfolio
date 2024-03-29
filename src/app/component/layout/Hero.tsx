@@ -3,12 +3,13 @@ import Image from "next/image";
 import left from "../../../../public/Assets/left.png";
 import right from "../../../../public/Assets/right.png";
 import "../../styles.css";
+import Scroll from "./Scroll";
 // type Props = {}
 
 const Hero: React.FC = () => {
   return (
     <section className="bg-[#FFF4EF] h-screen w-full relative overflow-hidden">
-      <div className="flex justify-between pt-[8rem]  ">
+      <div className="flex justify-between pt-[5rem]  ">
         <Image
           src={left}
           alt="Logo"
@@ -26,54 +27,17 @@ const Hero: React.FC = () => {
           priority
         />
       </div>
+      <div className="text-[#E9D3CA] absolute left-0 top-20">
+        <Scroll />{" "}
+      </div>
+      <div className="max-w-[83rem] mx-auto flex flex-col justify-center -mt-[17rem]">
+        <p className="text-[#E5BEAE] text-[1rem] font-medium  leading-normal tracking-[1.1524578rem] uppercase">
+          crafting experiences that uplift and inspire.
+        </p>
 
-      <div className="text-[#E9D3CA] absolute left-0 top-52">
-        <div className="w-full">
-          <div className="flex justify-evenly absolute left-0 z-20 overflow-visible">
-            <div className="flex justify-center animate mr-[2rem] lg:mr-0 items-center space-x-[3rem] xl:space-x-[5rem] lg:space-x-[4rem]  w-50">
-              <h3 className="font-medium text-[5rem] whitespace-nowrap leading-normal ">
-                Visual designer
-              </h3>
-
-              <h3 className="fonts  text-[5.0625rem] whitespace-nowrap  font-medium leading-normal">
-                Product Designer.
-              </h3>
-              <h3
-                style={{ fontFamily: "Allita" }}
-                className="text-[5.5rem] font-medium leading-normal "
-              >
-                illustrator.
-              </h3>
-
-              <h3 className="font-medium  text-[5rem] whitespace-nowrap leading-normal ">
-                Visual designer
-              </h3>
-
-              <h3 className="fonts  text-[5.0625rem] whitespace-nowrap  font-medium leading-normal">
-                Product Designer.
-              </h3>
-              <h3
-                style={{ fontFamily: "Allita" }}
-                className="text-[5.5rem] font-medium leading-normal "
-              >
-                illustrator.
-              </h3>
-              <h3 className="font-medium  text-[5rem] whitespace-nowrap leading-normal ">
-                Visual designer
-              </h3>
-
-              <h3 className="fonts  text-[5.0625rem] whitespace-nowrap  font-medium leading-normal">
-                Product Designer.
-              </h3>
-              <h3
-                style={{ fontFamily: "Allita" }}
-                className="text-[5.5rem] font-medium leading-normal "
-              >
-                illustrator.
-              </h3>
-            </div>
-          </div>
-        </div>
+        <h3 className="text-[#5933A7] text-[2rem] pt-[8rem] text-center font-semibold leading-normal tracking-[1rem]">
+          FEATURED PROJECTS
+        </h3>
       </div>
     </section>
   );

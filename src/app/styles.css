@@ -4,7 +4,7 @@
     url("../../public/fonts/Sweet-Allita.ttf") format("woff");
   /* Add additional font formats if necessary */
   /* Specify font-weight and font-style if needed */
-  font-weight: bold;
+  /* font-weight: bold; */
   font-style: normal;
 }
 /* .text-wrapper { */
@@ -16,17 +16,57 @@
   overflow: hidden;*/
 .animate {
   position: relative;
-  width: 300%;
+  width: 100%;
   top: 50%;
   transform: translate(0, -50%);
   white-space: nowrap;
-  animation: marquee 8s infinite linear;
+  overflow: hidden;
+  animation: marquee 20s infinite linear;
 }
 @keyframes marquee {
   0% {
-    left: 0;
+    transform: translateX(100%);
   }
   100% {
-    left: -100%;
+    transform: translateX(-100%);
   }
+}
+
+.progress {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: var(--accent);
+  bottom: 100px;
+}
+
+.parallax {
+  overflow: hidden;
+  letter-spacing: -2px;
+  line-height: 1.5;
+  margin: 0;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.parallax .scroller {
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 110px;
+  display: flex;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.parallax span {
+  display: block;
+  margin-right: 30px;
+  padding-top: 15px;
+}
+.text {
+  display: flex;
+  justify-content: center;
 }
