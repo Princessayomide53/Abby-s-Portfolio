@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
       <div className="text-[#E9D3CA] absolute left-0 top-20">
         <Scroll />{" "}
       </div>
-      <div className="max-w-[83rem] mx-auto flex flex-col justify-center -mt-[17rem]">
+      <div className="max-w-[83rem] mx-auto flex flex-col justify-center items-center -mt-[17rem]">
         <p className="text-[#E5BEAE] text-[1rem] font-medium  leading-normal tracking-[1.1524578rem] uppercase">
           crafting experiences that uplift and inspire.
         </p>
