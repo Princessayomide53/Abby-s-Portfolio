@@ -4,22 +4,22 @@ import arts from "../../../../public/Assets/arts.png";
 
 const About = () => {
   return (
-    <section className="h-[52rem] bg-[rgb(233,211,202)]">
+    <section className="h-[50rem] bg-[rgb(233,211,202)]">
       <div className="max-w-[83rem] flex justify-between">
         <Image
           src={arts}
           alt="illustration"
-          className="w-[39.875rem] h-[39.875rem] mt-[4rem]"
+          className="w-[39.875rem] h-[39.875rem] mt-[5rem]"
           //   width={85}
           //   height={20}
           priority
         />
 
         <div className="pt-[7rem] pb-[3.5rem]">
-          <h2 className="text-[#4F1E4B] text-[2rem] pb-[1rem] font-semibold tracking-[1rem] leading-normal">
+          <h2 className="text-[#5933A7] text-[2rem] pb-[1rem] font-semibold tracking-[1rem] leading-normal">
             ABOUT ME
           </h2>
-          <p className="text-[#43055F] text-[1.5rem] font-medium leading-normal text-justify">
+          <p className="text-[#43055F] text-[1.42rem] font-medium leading-normal text-justify">
             As a visual designer and illustrator, I am committed to crafting
             designs that are not only beautiful, but also purposeful and
             impactful. I believe that design has the power to make a difference,

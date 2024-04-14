@@ -19,7 +19,7 @@ const Projects: React.FC = () => {
         bgImage={backgroundImageUrl}
         // bgImageStyle={{ backgroundSize: "contain" }}
       >
-        <div className="h-[32rem] w-full border-b-4 border-white">
+        <div className="h-[29.5rem] w-full border-b-4 border-white">
           <div></div>
         </div>
       </Parallax>
@@ -28,7 +28,7 @@ const Projects: React.FC = () => {
         bgImage={backgroundImage}
         // bgImageStyle={{ backgroundSize: "cover" }}
       >
-        <div className="h-[35rem] w-full">
+        <div className="h-[30rem] w-full border-b-4 border-white">
           <div></div>
         </div>
       </Parallax>
@@ -37,7 +37,7 @@ const Projects: React.FC = () => {
         bgImage={background}
         // bgImageStyle={{ backgroundSize: "contain" }}
       >
-        <div className="h-[38rem] w-full">
+        <div className="h-[30rem] w-full border-b-4 border-white">
           <div></div>
         </div>
       </Parallax>
@@ -46,7 +46,7 @@ const Projects: React.FC = () => {
         bgImage={Image}
         bgImageStyle={{ backgroundSize: "contain" }}
       >
-        <div className="h-[32rem] w-full">
+        <div className="h-[30rem] w-full">
           <div></div>
         </div>
       </Parallax>
