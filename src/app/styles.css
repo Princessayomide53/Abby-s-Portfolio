@@ -1,7 +1,11 @@
+:root {
+  --swiper-navigation-size: 30px;
+}
+
 @font-face {
-  font-family: "Allita";
-  src: url("../../public/fonts/Sweet-Allita.ttf") format("woff2"),
-    url("../../public/fonts/Sweet-Allita.ttf") format("woff");
+  font-family: 'Allita';
+  src: url('../../public/fonts/Sweet-Allita.ttf') format('woff2'),
+    url('../../public/fonts/Sweet-Allita.ttf') format('woff');
   /* Add additional font formats if necessary */
   /* Specify font-weight and font-style if needed */
   /* font-weight: bold; */
@@ -69,4 +73,46 @@
 .text {
   display: flex;
   justify-content: center;
+}
+
+@media only screen and (min-width: 1024px) {
+  .parallax .scroller {
+    font-size: 110px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .parallax .scroller {
+    font-size: 80px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .parallax .scroller {
+    font-size: 40px;
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+/* .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.swiper-button-prev,
+.swiper-button-next {
+  color: black;
+  font-size: 16px;
+}
+
+.swiper-slide .img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

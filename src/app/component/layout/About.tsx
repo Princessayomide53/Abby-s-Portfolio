@@ -1,25 +1,25 @@
-import React from "react";
-import Image from "next/image";
-import arts from "../../../../public/Assets/arts.png";
+import React from 'react';
+import Image from 'next/image';
+import arts from '../../../../public/Assets/arts.png';
 
 const About = () => {
   return (
-    <section className="h-[50rem] bg-[rgb(233,211,202)]">
-      <div className="max-w-[83rem] flex justify-between">
+    <section className='md:h-[29rem] xl:h-[50rem] lg:h-[41.5rem] bg-[rgb(233,211,202)]'>
+      <div className='mac:max-w-[83rem] pro:max-w-[52rem] lg:max-w-[59rem] max-w-[22rem] md:max-w-[45rem] xl:max-w-[72rem] mx-auto flex flex-col-reverse justify-center items-center md:flex-row md:justify-between'>
         <Image
           src={arts}
-          alt="illustration"
-          className="w-[39.875rem] h-[39.875rem] mt-[5rem]"
+          alt='illustration'
+          className='mac:w-[39.875rem] w-[20rem] h-[20rem] md:w-[22.275rem] md:h-[22.275rem] lg:w-[30.275rem] lg:h-[30.775rem] xl:w-[36.875rem] xl:h-[37.875rem] mac:h-[39.875rem] md:mt-[2rem] lg:mt-[5rem]'
           //   width={85}
           //   height={20}
           priority
         />
 
-        <div className="pt-[7rem] pb-[3.5rem]">
-          <h2 className="text-[#5933A7] text-[2rem] pb-[1rem] font-semibold tracking-[1rem] leading-normal">
+        <div className='lg:pt-[7rem] pt-[2rem] md:pt-[3.5rem] pb-[3.5rem]'>
+          <h2 className='text-[#5933A7] px-3 md:px-0 lg:text-[1.5rem] xl:text-[2rem] pb-[1rem] font-semibold tracking-[8px] md:tracking-[1rem] leading-normal'>
             ABOUT ME
           </h2>
-          <p className="text-[#43055F] text-[1.42rem] font-medium leading-normal text-justify">
+          <p className='text-[#43055F] text-sm px-3 md:px-0 md:text-xs xl:text-[1.226rem] mac:text-[1.42rem] leading-normal font-medium md:leading-normal text-justify'>
             As a visual designer and illustrator, I am committed to crafting
             designs that are not only beautiful, but also purposeful and
             impactful. I believe that design has the power to make a difference,

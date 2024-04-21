@@ -83,7 +83,7 @@ export default function App() {
           <p className="fonts font-medium">Product Designer.</p>
           <p
             style={{ fontFamily: "Allita", fontWeight: "800" }}
-            className="text-7xl mt-10 font-bold"
+            className="lg:text-5xl mac:text-6xl text-[26px] mt-3 md:text-[55px] lg:mt-5 md:mt-3 font-bold"
           >
             illustrator.
           </p>
@@ -94,7 +94,7 @@ export default function App() {
           <p className="fonts">Visual designer.</p>
           <p
             style={{ fontFamily: "Allita", fontWeight: "800" }}
-            className="text-7xl mt-10 font-bold"
+            className="lg:text-5xl mac:text-6xl text-[26px] mt-3 md:text-[50px] lg:mt-5  md:mt-5 font-bold"
           >
             Product Designer.
           </p>
