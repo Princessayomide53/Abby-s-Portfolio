@@ -13,20 +13,21 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 
 const LiveWebsite = () => {
-  const isLargeScreen = useMediaQuery({ minWidth: 768 });
+  const isLargeScreen = useMediaQuery({ minWidth: 1024 });
+  const isMediumScreen = useMediaQuery({ minWidth: 768 });
 
   const settings = {
     navigation: true,
-    slidesPerView: isLargeScreen ? 3 : 1, // Set slidesPerView to 'auto' for small screens
+    slidesPerView: isLargeScreen ? 3 : isMediumScreen ? 2 : 1,
     spaceBetween: 30,
-    pagination: { clickable: true },
+    // pagination: { clickable: true },
   };
 
   // const settings = isLargeScreen ? largeScreenSettings : smallScreenSettings;
 
   return (
     <section className='bg-[#FFF4EF] h-[23rem] md:h-[28rem] lg:h-[29rem] mac:h-[36.5rem]'>
-      <div className='mac:max-w-[83rem] md:max-w-[45rem] pro:max-w-[52rem] lg:max-w-[60rem] xl:max-w-[72rem] mx-auto py-[2rem] md:py-[4rem]'>
+      <div className='mac:max-w-[83rem] md:max-w-[45rem] pro:max-w-[52rem] lg:max-w-[60rem] xl:max-w-[72rem] mx-auto  py-[2rem] md:py-[4rem]'>
         <h3 className='text-center text-[#5933A7] text-lg uppercase lg:text-[1.25rem] xl:text-[1.5rem] mac:text-[2rem] pb-[2.5rem] md:pb-[5rem] font-semibold tracking-[8px] md:tracking-[1rem] leading-normal'>
           Live Websites
         </h3>
@@ -36,7 +37,7 @@ const LiveWebsite = () => {
             modules={[Navigation]}
             className='mySwiper h-[20rem]'
           >
-            <SwiperSlide className='lg:mx-7'>
+            <SwiperSlide className='lg:mx-7 '>
               <div className='flex flex-col justify-center items-center'>
                 <Image
                   src={live1}
@@ -62,7 +63,7 @@ const LiveWebsite = () => {
                 </p>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
+            <SwiperSlide className=''>
               <div className='flex flex-col justify-center items-center'>
                 <Image
                   src={live3}
@@ -75,7 +76,7 @@ const LiveWebsite = () => {
                 </p>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
+            <SwiperSlide className=''>
               <div className='flex flex-col justify-center items-center'>
                 <Image
                   src={live1}
@@ -89,7 +90,7 @@ const LiveWebsite = () => {
               </div>
             </SwiperSlide>
 
-            <SwiperSlide>
+            <SwiperSlide className=''>
               <div className='flex flex-col justify-center items-center'>
                 <Image
                   src={live3}
@@ -102,7 +103,7 @@ const LiveWebsite = () => {
                 </p>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
+            <SwiperSlide className=''>
               <div className='flex flex-col justify-center items-center'>
                 <Image
                   src={live2}
@@ -115,7 +116,7 @@ const LiveWebsite = () => {
                 </p>
               </div>
             </SwiperSlide>
-            <SwiperSlide className='xl:mx-7 lg:mx-0'>
+            <SwiperSlide className='xl:mx-7  lg:mx-0'>
               <div className='flex flex-col justify-center items-center'>
                 <Image
                   src={live1}
