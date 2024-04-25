@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <section className='bg-[#FFF4EF] h-full pt-[4rem]'>
+    <section id='section3' className='bg-[#FFF4EF] h-full pt-[4rem]'>
       <h1 className='text-[#5933A7] text-base lg:text-[2rem] font-semibold text-center tracking-[6px] lg:tracking-[1rem] leading-normal'>
         LET’S CONNECT
       </h1>

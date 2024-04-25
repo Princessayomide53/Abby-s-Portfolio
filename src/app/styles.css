@@ -121,3 +121,8 @@
     --swiper-navigation-size: 25px; /* Adjust size for screens wider than 768px */
   }
 }
+
+.active {
+  color: #43055f !important;
+  font-weight: 700;
+}

@@ -28,8 +28,8 @@ const Projects: React.FC = () => {
   const gatby = p8.src;
 
   return (
-    <div className='overflow-hidden bg-[#2B1851] bg-fixed'>
-      <div className='md:block hidden'>
+    <div className='overflow-hidden bg-[#2B1851] bg-fixed' id='section1'>
+      <div className='md:block hidden '>
         <Parallax
           strength={600}
           bgImage={backgroundImageUrl}
@@ -46,7 +46,7 @@ const Projects: React.FC = () => {
                 //   height={20}
                 priority
               />
-              <h2 className='text-white md:text-[35.5px] lg:text-[50.1px] font-extrabold leading-normal md:leading-[20.049px]'>
+              <h2 className='text-white lg:-mt-5 md:text-[35.5px] lg:text-[50.1px] font-extrabold leading-normal md:leading-[20.049px]'>
                 QuickFill
               </h2>
             </div>
@@ -144,9 +144,9 @@ const Projects: React.FC = () => {
       </div>
 
       {/* small screen */}
-      <div className='block md:hidden'>
+      <div className='block md:hidden' id='section1'>
         <Parallax strength={600} bgImage={quick}>
-          <div className='h-[12rem] md:h-[22rem] lg:h-[29.5rem] flex flex-col justify-center items-center w-full border-b-4 border-white'>
+          <div className='h-[12rem]  flex flex-col justify-center items-center w-full border-b-4 border-white'>
             <div className='flex md:gap-3 gap-1 lg:gap-5'>
               {' '}
               <Image
@@ -171,7 +171,7 @@ const Projects: React.FC = () => {
           </div>
         </Parallax>
         <Parallax strength={600} bgImage={epp}>
-          <div className='h-[12rem] md:h-[22rem] lg:h-[29.5rem] flex flex-col justify-center items-center w-full border-b-4 border-white'>
+          <div className='h-[12rem]  flex flex-col justify-center items-center w-full border-b-4 border-white'>
             <div className='flex gap-5'>
               {' '}
               <Image
@@ -197,7 +197,7 @@ const Projects: React.FC = () => {
           bgImage={Xperizers}
           // bgImageStyle={{ backgroundSize: "contain" }}
         >
-          <div className='h-[12rem] md:h-[22rem] lg:h-[29.5rem] flex flex-col justify-center items-center w-full border-b-4 border-white'>
+          <div className='h-[12rem]  flex flex-col justify-center items-center w-full border-b-4 border-white'>
             <div className='flex gap-5'>
               {' '}
               <Image
@@ -223,7 +223,7 @@ const Projects: React.FC = () => {
           bgImage={gatby}
           bgImageStyle={{ backgroundSize: 'contain' }}
         >
-          <div className='h-[12rem] md:h-[22rem] lg:h-[29.5rem] flex flex-col justify-center items-center w-full border-b-4 border-white'>
+          <div className='h-[12rem]  flex flex-col justify-center items-center w-full border-b-4 border-white'>
             <div className='flex gap-5'>
               {' '}
               <Image

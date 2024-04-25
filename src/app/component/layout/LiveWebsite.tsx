@@ -37,12 +37,12 @@ const LiveWebsite = () => {
             modules={[Navigation]}
             className='mySwiper h-[20rem]'
           >
-            <SwiperSlide className='lg:mx-7 '>
+            <SwiperSlide className='lg:mr-5 '>
               <div className='flex flex-col justify-center items-center'>
                 <Image
                   src={live1}
                   alt='live website'
-                  className='mac:w-[21.83881rem] md:mx-0 w-[18.83881rem] md:w-[15.83881rem] lg:w-[16.83881rem] xl:w-[18.83881rem] mac:h-[12.70075rem] xl:h-[11.70075rem]'
+                  className='mac:w-[21.83881rem] md:mx-0 w-[18.83881rem] md:w-[15.83881rem] lg:w-[16.83881rem] xl:w-[17.53881rem] mac:h-[12.70075rem] xl:h-[10.70075rem]'
                   priority
                 />
                 <p className='text-[#5933A7] lg:text-lg text-base md:text-base xl:text-[1.5rem] font-semibold leading-normal text-center pt-5'>
@@ -55,7 +55,7 @@ const LiveWebsite = () => {
                 <Image
                   src={live2}
                   alt='live website'
-                  className='mac:w-[21.83881rem] w-[20.83881rem] md:w-[15.83881rem] lg:w-[16.83881rem] xl:w-[18.83881rem] mac:h-[12.70075rem] xl:h-[11.70075rem]'
+                  className='mac:w-[21.83881rem] w-[20.83881rem] md:w-[15.83881rem] lg:w-[16.83881rem] xl:w-[17.53881rem] mac:h-[12.70075rem] xl:h-[10.70075rem]'
                   priority
                 />
                 <p className='text-[#5933A7] lg:text-lg text-base md:text-base xl:text-[1.5rem] font-semibold leading-normal text-center pt-5'>
@@ -63,12 +63,12 @@ const LiveWebsite = () => {
                 </p>
               </div>
             </SwiperSlide>
-            <SwiperSlide className=''>
+            <SwiperSlide className='lg:mr-7 xl:mr-10'>
               <div className='flex flex-col justify-center items-center'>
                 <Image
                   src={live3}
                   alt='live website'
-                  className='mac:w-[21.83881rem] w-[20.83881rem] md:w-[15.83881rem] lg:w-[16.83881rem] xl:w-[18.83881rem] mac:h-[12.70075rem] xl:h-[11.70075rem]'
+                  className='mac:w-[21.83881rem] w-[20.83881rem] md:w-[15.83881rem] lg:w-[16.83881rem] xl:w-[17.53881rem] mac:h-[12.70075rem] xl:h-[10.70075rem]'
                   priority
                 />
                 <p className='text-[#5933A7] lg:text-lg text-base md:text-base xl:text-[1.5rem] font-semibold leading-normal text-center pt-5'>
@@ -81,7 +81,7 @@ const LiveWebsite = () => {
                 <Image
                   src={live1}
                   alt='live website'
-                  className='mac:w-[21.83881rem] w-[20.83881rem] md:w-[15.83881rem] lg:w-[16.83881rem] xl:w-[18.83881rem] mac:h-[12.70075rem] xl:h-[11.70075rem]'
+                  className='mac:w-[21.83881rem] w-[20.83881rem] md:w-[15.83881rem] lg:w-[16.83881rem] xl:w-[17.53881rem] mac:h-[12.70075rem] xl:h-[11.70075rem]'
                   priority
                 />
                 <p className='text-[#5933A7] lg:text-lg text-base md:text-base xl:text-[1.5rem] font-semibold leading-normal text-center pt-5'>
@@ -95,7 +95,7 @@ const LiveWebsite = () => {
                 <Image
                   src={live3}
                   alt='live website'
-                  className='mac:w-[21.83881rem] w-[20.83881rem] md:w-[15.83881rem] lg:w-[16.83881rem] xl:w-[18.83881rem] mac:h-[12.70075rem] xl:h-[11.70075rem]'
+                  className='mac:w-[21.83881rem] w-[20.83881rem] md:w-[15.83881rem] lg:w-[16.83881rem] xl:w-[17.53881rem] mac:h-[12.70075rem] xl:h-[11.70075rem]'
                   priority
                 />
                 <p className='text-[#5933A7] lg:text-lg text-base md:text-base xl:text-[1.5rem] font-semibold leading-normal text-center pt-5'>
@@ -108,7 +108,7 @@ const LiveWebsite = () => {
                 <Image
                   src={live2}
                   alt='live website'
-                  className='mac:w-[21.83881rem] w-[20.83881rem] md:w-[15.83881rem] lg:w-[16.83881rem] xl:w-[18.83881rem] mac:h-[12.70075rem] xl:h-[11.70075rem]'
+                  className='mac:w-[21.83881rem] w-[20.83881rem] md:w-[15.83881rem] lg:w-[16.83881rem] xl:w-[17.53881rem] mac:h-[12.70075rem] xl:h-[11.70075rem]'
                   priority
                 />
                 <p className='text-[#5933A7] lg:text-lg text-base md:text-base xl:text-[1.5rem] font-semibold leading-normal text-center pt-5'>
@@ -116,12 +116,12 @@ const LiveWebsite = () => {
                 </p>
               </div>
             </SwiperSlide>
-            <SwiperSlide className='xl:mx-7  lg:mx-0'>
+            <SwiperSlide className='xl:mr-10  lg:mx-0'>
               <div className='flex flex-col justify-center items-center'>
                 <Image
                   src={live1}
                   alt='live website'
-                  className='mac:w-[21.83881rem] w-[20.83881rem] md:w-[15.83881rem] lg:w-[16.23881rem] xl:w-[18.83881rem] mac:h-[12.70075rem] xl:h-[11.70075rem]'
+                  className='mac:w-[21.83881rem] w-[20.83881rem] md:w-[15.83881rem] lg:w-[16.23881rem] xl:w-[17.53881rem] mac:h-[12.70075rem] xl:h-[10.70075rem]'
                   priority
                 />
                 <p className='text-[#5933A7] lg:text-lg text-base md:text-base xl:text-[1.5rem] font-semibold leading-normal text-center pt-5'>
