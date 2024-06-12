@@ -4,6 +4,7 @@ import Image from 'next/image';
 import art from '../../../../public/Assets/arts.png';
 // import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-scroll';
+import IllustrationLink from './IllustrationLink';
 
 const Nav: React.FC = () => {
   const isActive = useRef(() => {});
@@ -96,9 +97,7 @@ const Nav: React.FC = () => {
             </li>
           </ul>
           <ul className='py-4 lg:mt-3 lg:flex hidden'>
-            <li className='text-[#5933A7] lg:text-[1.1rem] xl:text-[1.35rem] font-medium underline leading-normal'>
-              Illustration portfolio
-            </li>
+            <IllustrationLink />
           </ul>
           <div
             className='my-3 md:my-7 md:text-2xl lg:hidden '

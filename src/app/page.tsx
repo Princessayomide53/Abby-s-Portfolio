@@ -1,21 +1,8 @@
-import Nav from './component/layout/Nav';
-import Hero from './component/layout/Hero';
-import Projects from './component/layout/Projects';
-import About from './component/layout/About';
-import LiveWebsite from './component/layout/LiveWebsite';
-import Contact from './component/layout/Contact';
-import Footer from './component/layout/Footer';
+import React from 'react';
+import HomePage from './component/layout/HomePage';
 
-export default function Home() {
-  return (
-    <div className=''>
-      <Nav />
-      <Hero />
-      <Projects />
-      <LiveWebsite />
-      <About />
-      <Contact />
-      <Footer />
-    </div>
-  );
+function MyApp() {
+  return <HomePage />;
 }
+
+export default MyApp;
