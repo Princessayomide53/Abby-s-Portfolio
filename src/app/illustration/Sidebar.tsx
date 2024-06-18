@@ -17,7 +17,11 @@ const Sidebar = () => {
   };
   return (
     <section className='flex gap-10 w-[100%]'>
-      <aside className='bg-[#FBF1FF] w-[25%] fixed h-screen pt-10'>
+      <aside
+        className={`${tabs === 1 ? 'bg-[#FBF1FF]' : ''}  ${
+          tabs === 2 ? 'bg-[#F4FFDF]' : ''
+        } w-[25%] fixed h-screen pt-10`}
+      >
         <center className='pt-[13px]'>
           <Image
             src={abby}
