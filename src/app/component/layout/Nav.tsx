@@ -3,8 +3,9 @@ import React, { useState, useRef } from 'react';
 import Image from 'next/image';
 import art from '../../../../public/Assets/arts.png';
 // import { HashLink } from 'react-router-hash-link';
-import { Link } from 'react-scroll';
+import { Link as ScrollLink } from 'react-scroll';
 import IllustrationLink from './IllustrationLink';
+import Link from 'next/link';
 
 const Nav: React.FC = () => {
   const isActive = useRef(() => {});
@@ -50,7 +51,7 @@ const Nav: React.FC = () => {
           </div>
           <ul className='lg:flex hidden xl:space-x-[3rem] lg:space-x-[1.75rem] mac:space-x-[7rem] py-4 lg:mt-3'>
             <li className='text-[#2B1851] cursor-pointer lg:text-[1rem] xl:text-[1.20rem] font-medium tracking-[0.25rem] leading-normal'>
-              <Link
+              <ScrollLink
                 activeClass='active'
                 to='section1'
                 spy={true}
@@ -62,10 +63,10 @@ const Nav: React.FC = () => {
               >
                 {' '}
                 PROJECTS
-              </Link>
+              </ScrollLink>
             </li>
             <li className='text-[#2B1851] cursor-pointer lg:text-[1rem] uppercase xl:text-[1.20rem] font-medium tracking-[0.25rem] leading-normal'>
-              <Link
+              <ScrollLink
                 activeClass='active'
                 to='section2'
                 spy={true}
@@ -78,10 +79,10 @@ const Nav: React.FC = () => {
               >
                 {' '}
                 About
-              </Link>
+              </ScrollLink>
             </li>
             <li className='text-[#2B1851] cursor-pointer lg:text-[1rem] uppercase xl:text-[1.20rem] font-medium tracking-[0.25rem] leading-normal'>
-              <Link
+              <ScrollLink
                 activeClass='active'
                 to='section3'
                 spy={true}
@@ -93,7 +94,7 @@ const Nav: React.FC = () => {
                 onClick={() => handleSetActiveSection('section3')}
               >
                 Contact
-              </Link>
+              </ScrollLink>
             </li>
           </ul>
           <ul className='py-4 lg:mt-3 lg:flex hidden'>
@@ -158,7 +159,7 @@ const Nav: React.FC = () => {
                 <ul className='pt-[2.8rem] px-2 space-y-[1.2rem]'>
                   {/* <HashLink smooth to='/#section1'> */}{' '}
                   <li className='text-base font-medium leading-normal tracking-[2.4px] text-[#2B1851]'>
-                    <Link
+                    <ScrollLink
                       activeClass='active'
                       to='section1'
                       spy={true}
@@ -175,10 +176,10 @@ const Nav: React.FC = () => {
                     >
                       {' '}
                       PROJECTS{' '}
-                    </Link>
+                    </ScrollLink>
                   </li>
                   <li className='text-base font-medium leading-normal tracking-[2.4px] text-[#2B1851]'>
-                    <Link
+                    <ScrollLink
                       activeClass='active'
                       to='section2'
                       spy={true}
@@ -195,10 +196,10 @@ const Nav: React.FC = () => {
                     >
                       {' '}
                       ABOUT{' '}
-                    </Link>
+                    </ScrollLink>
                   </li>
                   <li className='text-base font-medium leading-normal tracking-[2.4px] text-[#2B1851]'>
-                    <Link
+                    <ScrollLink
                       activeClass='active'
                       to='section3'
                       spy={true}
@@ -214,12 +215,12 @@ const Nav: React.FC = () => {
                       }}
                     >
                       CONTACT
-                    </Link>
+                    </ScrollLink>
                   </li>
                 </ul>
                 <ul className='flex pt-20 px-2 lg:hidden'>
                   <li className='text-[#5933A7] lg:text-[1.1rem] xl:text-[1.35rem] font-medium underline leading-normal'>
-                    Illustration portfolio
+                    <Link href='/illustration'> Illustration portfolio</Link>
                   </li>
                 </ul>
               </div>

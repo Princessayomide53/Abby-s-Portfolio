@@ -14,8 +14,8 @@ import book from '../../../public/Assets/book.png';
 
 const Portfolio = () => {
   return (
-    <section className='h-[80rem] w-full mt-20 lg:mt-0'>
-      <div className='flex flex-col justify-center md:flex-row md:justify-between mac:gap-5'>
+    <section className='h-[80rem] w-full mt-28 lg:mt-0'>
+      <div className='flex flex-col md:flex-row md:justify-between gap-y-[25px] md:gap-y-0 mac:gap-5'>
         <Image
           src={arts}
           alt=''
@@ -29,53 +29,53 @@ const Portfolio = () => {
           priority
         />
       </div>
-      <div className='flex md:justify-between mac:gap-5'>
+      <div className='flex flex-col md:flex-row md:justify-between gap-y-[25px] md:gap-y-0  mac:gap-5'>
         <Image
           src={Bianca1}
           alt=''
-          className='xl:-mt-64 lg:-mt-24 md:-mt-40 md:w-[350px] md:h-[450px] lg:w-[350px] lg:h-[400px] xl:w-[400px] xl:h-[500px] mac:w-[504px] mac:h-[522px]'
+          className='xl:-mt-64 lg:-mt-24 md:-mt-40 mt-[25px] md:w-[350px] md:h-[450px] lg:w-[350px] lg:h-[400px] xl:w-[400px] xl:h-[500px] mac:w-[504px] mac:h-[522px]'
           priority
         />
         <Image
           src={arts2}
           alt=''
-          className='lg:w-[300px] w-[350px] xl:w-[450px] mac:w-[502px] mt-10'
+          className='lg:w-[300px] w-[350px] xl:w-[450px] mac:w-[502px] md:mt-10'
           priority
         />
       </div>
-      <div className='flex md:justify-between mac:gap-5'>
+      <div className='flex flex-col md:flex-row md:justify-between gap-y-[25px] md:gap-y-0  mac:gap-5'>
         <Image
           src={family}
           alt=''
-          className='mac:-mt-[22.5rem] xl:-mt-[19rem] md:-mt-[8.3rem] md:w-[350px] md:h-[400px] lg:-mt-[4.5rem] lg:w-[350px] lg:h-[350px] xl:w-[400px] xl:h-[550px] mac:w-[504px] mac:h-[628px]'
+          className='mac:-mt-[22.5rem] xl:-mt-[19rem] mt-[25px] md:-mt-[8.3rem] md:w-[350px] md:h-[400px] lg:-mt-[4.5rem] lg:w-[350px] lg:h-[350px] xl:w-[400px] xl:h-[550px] mac:w-[504px] mac:h-[628px]'
           priority
         />
         <Image
           src={love}
           alt=''
-          className='mt-10 mac:h-[504px] md:w-[350px] md:h-[450px] mac:w-auto lg:w-[300px] lg:h-[420px] xl:w-[450px] xl:h-[550px]'
+          className='md:mt-10 mac:h-[504px] md:w-[350px] md:h-[450px] mac:w-auto lg:w-[300px] lg:h-[420px] xl:w-[450px] xl:h-[550px]'
           priority
         />
       </div>
-      <div className='flex justify-between mac:gap-5'>
+      <div className='flex flex-col md:flex-row md:justify-between gap-y-[25px] md:gap-y-0  mac:gap-5'>
         <Image
           src={papa}
           alt=''
-          className='xl:-mt-[17rem] md:-mt-[11rem] lg:-mt-[9.1rem] mac:-mt-[15rem] md:w-[350px] xl:w-[400px] lg:w-[350px] md:h-[400px] xl:h-[500px] mac:w-[504px] mac:h-[498px]'
+          className='xl:-mt-[17rem] md:-mt-[11rem] mt-[25px] lg:-mt-[9.1rem] mac:-mt-[15rem] md:w-[350px] xl:w-[400px] lg:w-[350px] md:h-[400px] xl:h-[500px] mac:w-[504px] mac:h-[498px]'
           priority
         />
         <Image
           src={snow}
           alt=''
-          className='mt-10 lg:w-[300px] md:w-[350px] md:h-[450px] xl:h-auto xl:w-[450px] mac:h-[638px]'
+          className='md:mt-10 lg:w-[300px] md:w-[350px] md:h-[450px] xl:h-auto xl:w-[450px] mac:h-[638px]'
           priority
         />
       </div>
-      <div className='flex justify-between mac:gap-5'>
+      <div className='flex flex-col md:flex-row md:justify-between gap-y-[25px] md:gap-y-0  mac:gap-5'>
         <Image
           src={Sunset}
           alt=''
-          className='xl:-mt-[20.5rem] mac:-mt-[23.7rem] md:-mt-[13rem] md:w-[350px] md:h-[400px] xl:w-[400px] lg:w-[350px] lg:-mt-[12.5rem] lg:h-[400px] xl:h-[550px] mac:w-[504px] mac:h-[620px]'
+          className='xl:-mt-[20.5rem] mac:-mt-[23.7rem] mt-[25px] md:-mt-[13rem] md:w-[350px] md:h-[400px] xl:w-[400px] lg:w-[350px] lg:-mt-[12.5rem] lg:h-[400px] xl:h-[550px] mac:w-[504px] mac:h-[620px]'
           priority
         />
         <Image
@@ -85,11 +85,11 @@ const Portfolio = () => {
           priority
         />
       </div>
-      <div className='flex justify-between mac:gap-5'>
+      <div className='flex flex-col md:flex-row md:justify-between gap-y-[25px] md:gap-y-0 mac:gap-5'>
         <Image
           src={book}
           alt=''
-          className='mac:-mt-[28rem] md:w-[350px] md:h-[320px] md:-mt-[20rem] lg:-mt-[21rem] lg:w-[350px] lg:h-[320px] xl:-mt-[24rem] xl:w-[400px] xl:h-[400px] mac:w-[504px] mac:h-[455px]'
+          className='mac:-mt-[28rem] md:w-[350px] mt-[25px] md:h-[320px] md:-mt-[20rem] lg:-mt-[21rem] lg:w-[350px] lg:h-[320px] xl:-mt-[24rem] xl:w-[400px] xl:h-[400px] mac:w-[504px] mac:h-[455px]'
           priority
         />
         {/* <Image src={sleep} alt='' className='mt-10' priority /> */}

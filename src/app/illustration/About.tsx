@@ -7,12 +7,12 @@ type Props = {};
 
 const About = (props: Props) => {
   return (
-    <section className='lg:pt-20 pt-32 px-[2rem] lg:px-0'>
+    <section className='lg:pt-20 pt-32 md:px-[2rem] lg:px-0 w-full overflow-hidden'>
       <h1 className='text-[#5E167E] text-[36px] leading-normal font-bold'>
         Hello!
       </h1>
       <span className='flex flex-col gap-y-12 md:gap-y-0 w-full md:flex-row md:justify-between pt-5 lg:pt-0 pb-[120px] md:pb-[90px] lg:pb-[120px] xl:pb-[140px]'>
-        <p className='text-[#000] text-base md:text-[14.2px] lg:text-base xl:text-xl font-normal leading-[30px] w-[540px]'>
+        <p className='text-[#000] text-base md:text-[14.2px] lg:text-base xl:text-xl font-normal leading-[30px] md:w-[540px]'>
           I'm Abieyuwa, a creative illustrative storyteller.
           <br /> I consider myself an Illustrator that creates
           <span className='font-semibold mr-1'>
@@ -47,8 +47,8 @@ const About = (props: Props) => {
         </span>
       </span>
 
-      <div className='md:max-w-[38rem] px-3 md:px-0 lg:max-w-[50rem] mx-auto py-7 md:py-0 md:pt-10 lg:pt-14 pb-10'>
-        <h3 className='text-[#5E167E] text-[36px] pb-[45px] font-semibold leading-normal'>
+      <div className='md:max-w-[38rem] max-w-full md:px-0 lg:max-w-[50rem] mx-auto py-7 md:py-0 md:pt-10 lg:pt-14 pb-10'>
+        <h3 className='text-[#5E167E] text-[24px] md:text-[36px] pb-[45px] font-semibold leading-normal'>
           Let’s give life to your project
         </h3>
         <form className='space-y-[1.5rem] md:space-y-[2rem]'>
@@ -111,7 +111,7 @@ const About = (props: Props) => {
           <div className='flex justify-start mb-7 md:pb-[5rem] lg:pb-7'>
             <button
               type='submit'
-              className='bg-[#5933A7] text-white w-full rounded-full py-4 md:px-6 md:py-3 md:rounded-lg hover:bg-opacity-90'
+              className='bg-[#5933A7] text-white w-full rounded-2xl py-4 md:w-auto md:px-6 md:py-3 md:rounded-lg hover:bg-opacity-90'
             >
               Send
             </button>
