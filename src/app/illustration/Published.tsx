@@ -10,6 +10,7 @@ interface Publication {
   links: string;
   img: StaticImageData | string;
 }
+
 const Published = () => {
   const publications: Publication[] = [
     {
@@ -40,7 +41,10 @@ const Published = () => {
     <section className=''>
       <div className='mt-[95px] pt-[2rem] md:pt-0 md:p-[2rem] lg:p-0'>
         {publications.map((publish, index) => (
-          <div className='flex flex-col md:flex-row md:justify-between mb-20'>
+          <div
+            key={publish.id}
+            className='flex flex-col md:flex-row md:justify-between mb-20'
+          >
             <div className=''>
               <h2
                 className={`text-[#5E167E] text-[24px] md:text-4xl font-bold leading-normal ${
