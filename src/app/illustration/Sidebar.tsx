@@ -126,6 +126,7 @@ const Sidebar = () => {
                     <li
                       onClick={() => {
                         handleTabs(1);
+                        closeBar();
                       }}
                       className={`text-[#4F1E4B] ${
                         tabs === 1 ? 'font-semibold bg-white' : 'font-medium'
@@ -136,6 +137,7 @@ const Sidebar = () => {
                     <li
                       onClick={() => {
                         handleTabs(2);
+                        closeBar();
                       }}
                       className={`text-[#4F1E4B] font-medium leading-normal ${
                         tabs === 2 ? 'font-semibold bg-white' : 'font-medium'
@@ -146,6 +148,7 @@ const Sidebar = () => {
                     <li
                       onClick={() => {
                         handleTabs(3);
+                        closeBar();
                       }}
                       className={`text-[#4F1E4B] font-medium leading-normal ${
                         tabs === 3 ? 'font-semibold bg-white' : 'font-medium'
@@ -156,6 +159,7 @@ const Sidebar = () => {
                     <li
                       onClick={() => {
                         handleTabs(4);
+                        closeBar();
                       }}
                       className={`text-[#4F1E4B] font-medium leading-normal ${
                         tabs === 4 ? 'font-semibold bg-white' : 'font-medium'
@@ -166,6 +170,7 @@ const Sidebar = () => {
                     <li
                       onClick={() => {
                         handleTabs(5);
+                        closeBar();
                       }}
                       className={`text-[#4F1E4B] font-medium leading-normal ${
                         tabs === 5 ? 'font-semibold bg-white' : 'font-medium'

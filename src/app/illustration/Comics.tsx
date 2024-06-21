@@ -9,7 +9,7 @@ import guilt from '../../../public/Assets/guilt.png';
 
 const Comics = () => {
   return (
-    <section className='space-y-7 md:pt-28 lg:p-0 lg:pt-0 md:px-[2rem] w-full overflow-hidden'>
+    <section className='space-y-7 pt-28 lg:p-0 lg:pt-0 md:px-[2rem] w-full overflow-hidden'>
       <div className='flex flex-col md:flex-row md:justify-between'>
         <Image src={Baby} alt='' className='w-[500px] h-auto ' priority />
         <Image src={social} alt='' className='w-[500px] h-auto' priority />

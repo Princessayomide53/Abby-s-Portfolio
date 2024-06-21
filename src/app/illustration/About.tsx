@@ -7,7 +7,7 @@ type Props = {};
 
 const About = (props: Props) => {
   return (
-    <section className='lg:pt-20 pt-32 md:px-[2rem] lg:px-0 w-full overflow-hidden'>
+    <section className='lg:pt-20 pt-32  md:px-[2rem] lg:px-0 w-full overflow-hidden'>
       <h1 className='text-[#5E167E] text-[36px] leading-normal font-bold'>
         Hello!
       </h1>

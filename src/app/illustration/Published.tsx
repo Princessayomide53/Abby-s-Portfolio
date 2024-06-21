@@ -38,7 +38,7 @@ const Published = () => {
 
   return (
     <section className=''>
-      <div className='mt-[95px] p-[2rem] lg:p-0'>
+      <div className='mt-[95px] pt-[2rem] md:pt-0 md:p-[2rem] lg:p-0'>
         {publications.map((publish, index) => (
           <div className='flex flex-col md:flex-row md:justify-between mb-20'>
             <div className=''>
