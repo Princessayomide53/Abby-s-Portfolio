@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Baby from '../../../public/Assets/Baby.png';
 import Social from '../../../public/Assets/Social.png';
 import anxious from '../../../public/Assets/anxious.png';
-import snuggles from '../../../public/Assets/social.png';
+import snuggles from '../../../public/Assets/snuggles.png';
 import flab from '../../../public/Assets/flab.png';
 import guilt from '../../../public/Assets/guilt.png';
 
