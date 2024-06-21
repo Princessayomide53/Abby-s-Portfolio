@@ -16,11 +16,11 @@ const Comics = () => {
         <Image src={Baby} alt='' className='w-[500px] h-auto ' priority />
         <Image src={Social} alt='' className='w-[500px] h-auto' priority />
       </div>
-      <div className='flex justify-between'>
+      <div className='flex flex-col md:flex-row md:justify-between'>
         <Image src={anxious} alt='' className='w-[500px] h-auto ' priority />
         <Image src={snuggles} alt='' className='w-[500px] h-auto' priority />
       </div>
-      <div className='flex justify-between'>
+      <div className='flex flex-col md:flex-row md:justify-between'>
         <Image src={flab} alt='' className='w-[500px] h-auto ' priority />
         <Image src={guilt} alt='' className='w-[500px] h-auto' priority />
       </div>
