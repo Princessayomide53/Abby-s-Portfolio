@@ -38,20 +38,22 @@ const Published = () => {
 
   return (
     <section className=''>
-      <div className='mt-[95px]'>
+      <div className='mt-[95px] p-[2rem] lg:p-0'>
         {publications.map((publish, index) => (
-          <div className='flex justify-between mb-20'>
+          <div className='flex flex-col md:flex-row md:justify-between mb-20'>
             <div className=''>
               <h2
-                className={`text-[#5E167E] text-4xl font-bold leading-normal ${
-                  index === 0 ? 'w-[402px]' : ''
+                className={`text-[#5E167E] text-[24px] md:text-4xl font-bold leading-normal ${
+                  index === 0 ? 'md:w-[402px] w-[250px]' : ''
                 }`}
               >
                 {publish.title}
               </h2>
               <p
-                className={` ${index === 0 ? 'w-[520px]' : ''} ${
-                  index === 1 ? 'w-[540px]' : ''
+                className={` ${
+                  index === 0 ? 'xl:w-[520px] lg:w-[410px] md:w-[370px]' : ''
+                } ${
+                  index === 1 ? 'xl:w-[540px] lg:w-[420px] md:w-[370px]' : ''
                 } pt-[38px]`}
               >
                 {publish.description}
@@ -64,7 +66,9 @@ const Published = () => {
               <Image
                 src={publish.img}
                 alt='illustration'
-                className='w-[370px] h-[370px]'
+                className={`xl:w-[370px] lg:w-[300px] lg:h-[300px] mt-8 xl:mt-0 xl:h-[370px] ${
+                  index === 1 ? 'md:h-[300px]' : ''
+                }`}
                 priority
               />
             </div>

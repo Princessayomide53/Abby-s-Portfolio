@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import abby from '../../../public/Assets/abby.png';
+import heart from '../../../public/Assets/heart.png';
 import Portfolio from './Portfolio';
 import Link from 'next/link';
 import Published from './Published';
@@ -16,11 +17,43 @@ const Sidebar = () => {
     setTabs(tabs);
   };
   return (
-    <section className='flex gap-10 w-[100%]'>
+    <section className='lg:flex-row flex flex-col lg:gap-10  w-[100%]'>
+      <div className='md:max-w-[45rem] mx-auto block lg:hidden'>
+        <header
+          className={`${tabs === 1 ? 'bg-[#FBF1FF]' : ''}  ${
+            tabs === 2 ? 'bg-[#F4FFDF]' : ''
+          } ${tabs === 3 ? 'bg-[#E6FFFC]' : ''} ${
+            tabs === 4 ? 'bg-[#FFF7C5]' : ''
+          } ${
+            tabs === 5 ? 'bg-[#FBF1FF]' : ''
+          } w-full fixed top-0 left-0 z-20 h-24 flex justify-between items-center px-4 md:px-8 py-2`}
+        >
+          <span className='flex gap-3 md:gap-7 items-center'>
+            <Image
+              src={heart}
+              alt='illustration'
+              className='h-[45px] w-[45px]'
+              priority
+            />
+            <span>
+              <h3 className='text-[#5E167E] pt-[13px] text-[8.97px] md:text-[16.249px] font-semibold leading-normal tracking-[1.625px]'>
+                ABY PURPLEHEART
+              </h3>
+              <p className='text-[#5E167E] pt-[6.59px] text-[7.03px] md:text-[12.739px] font-medium leading-normal tracking-[7.643px]'>
+                ILLUSTRATIONS
+              </p>
+            </span>
+          </span>
+        </header>
+      </div>
       <aside
         className={`${tabs === 1 ? 'bg-[#FBF1FF]' : ''}  ${
           tabs === 2 ? 'bg-[#F4FFDF]' : ''
-        } w-[25%] fixed h-screen pt-10`}
+        } ${tabs === 3 ? 'bg-[#E6FFFC]' : ''} ${
+          tabs === 4 ? 'bg-[#FFF7C5]' : ''
+        }  ${
+          tabs === 5 ? 'bg-[#FBF1FF]' : ''
+        }  w-[25%] hidden lg:block fixed h-[80rem] pt-10`}
       >
         <center className='pt-[13px]'>
           <Image
@@ -89,14 +122,14 @@ const Sidebar = () => {
           </ul>
         </div>
       </aside>
-      <main className=' absolute left-[28%] top-0 w-[70%]'>
+      <main className=' absolute left-0 md:w-full lg:left-[28%] top-0 lg:w-[70%]'>
         <div>
           {tabs === 1 && <Portfolio />}
           {tabs === 2 && <Published />}
           {tabs === 3 && <Comics />}
           {tabs === 4 && <Sketchbook />}
           {tabs === 5 && <About />}
-          {tabs === 6 && <Portfolio />}
+          {/* {tabs === 6 && <Portfolio />} */}
           {/* {tabs === 1 && <Portfolio />} */}
         </div>
       </main>
