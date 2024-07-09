@@ -1,7 +1,7 @@
 import React from 'react';
 import Image, { StaticImageData } from 'next/image';
-import father from '../../../public/Assets/father.png';
-import wellness from '../../../public/Assets/wellness.png';
+import father from '../../../public/Assets/father.jpg';
+import wellness from '../../../public/Assets/wellness.jpg';
 
 interface Publication {
   id: number;

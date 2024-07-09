@@ -41,7 +41,7 @@ const Sidebar = () => {
               <Image
                 src={heart}
                 alt='illustration'
-                className='h-[45px] w-[45px]'
+                className='h-[40px] w-[40px]'
                 priority
               />
               <span>
@@ -108,7 +108,7 @@ const Sidebar = () => {
                   <path d='M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z'></path>
                 </svg>
               </span>
-              <center className='mt-10 md:mt-14'>
+              <center className='mt-7 md:mt-14'>
                 <Image
                   src={abby}
                   alt='illustration'
@@ -121,7 +121,7 @@ const Sidebar = () => {
                 <p className='text-[#5E167E] pt-[6.59px] text-[7.03px] md:text-[12.739px] font-medium leading-normal tracking-[4.223px]'>
                   ILLUSTRATIONS
                 </p>
-                <div className='pt-[80.59px] pb-[90.5px] border-[#5E167E]  border-b-2 md:pt-[100px] flex flex-col'>
+                <div className='pt-[70.59px] pb-[90.5px] border-[#5E167E]  border-b-2 md:pt-[100px] flex flex-col'>
                   <ul className='space-y-[20px] md:space-y-[40px]'>
                     <li
                       onClick={() => {
