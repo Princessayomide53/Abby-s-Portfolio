@@ -30,25 +30,27 @@ const Nav: React.FC = () => {
   };
   return (
     <>
-      <section className='bg-[#FFF4EF] fixed top-0 left-0 z-50 py-3 w-full'>
+      <section className='bg-white/50 backdrop-blur-md fixed top-0 left-0 z-50 py-3 w-full'>
         <nav className='relative  xl:max-w-[72rem] pro:max-w-[52rem] md:max-w-[45rem] max-w-[22rem] mac:max-w-[83rem] lg:max-w-[59rem] mx-auto flex justify-between'>
-          <div className='flex items-center'>
-            <Image
-              src={art}
-              alt='Logo'
-              className='md:w-[85px] md:h-[85px] w-[42.831px] h-[42.831px] '
-              priority
-            />
-            <div>
-              <h3 className='text-[#5933A7] text-sm md:text-[1rem] lg:text-[1.125rem] xl:text-[1.35rem] leading-normal font-extrabold'>
-                Abieyuwa Adeseiye
-              </h3>
+          <Link href='/'>
+            <div className='flex items-center'>
+              <Image
+                src={art}
+                alt='Logo'
+                className='md:w-[85px] md:h-[85px] w-[42.831px] h-[42.831px] '
+                priority
+              />
+              <div>
+                <h3 className='text-[#5933A7] text-sm md:text-[1rem] lg:text-[1.125rem] xl:text-[1.35rem] leading-normal font-extrabold'>
+                  Abieyuwa Adeseiye
+                </h3>
 
-              <p className='text-[#2B1851] text-sm md:text-[1.25rem] font-normal leading-normal'>
-                Visual Designer
-              </p>
+                <p className='text-[#2B1851] text-sm md:text-[1.25rem] font-normal leading-normal'>
+                  Visual Designer
+                </p>
+              </div>
             </div>
-          </div>
+          </Link>
           <ul className='lg:flex hidden xl:space-x-[3rem] lg:space-x-[1.75rem] mac:space-x-[7rem] py-4 lg:mt-3'>
             <li className='text-[#2B1851] cursor-pointer lg:text-[1rem] xl:text-[1.20rem] font-medium tracking-[0.25rem] leading-normal'>
               <ScrollLink

@@ -16,6 +16,7 @@ module.exports = {
         pro: '912px',
         air: '820px',
         iphone14: '430px',
+        small: '375px',
       },
     },
   },

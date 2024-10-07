@@ -6,6 +6,7 @@ import About from './About';
 import LiveWebsite from './LiveWebsite';
 import Contact from './Contact';
 import Footer from './Footer';
+import Arts from './Arts';
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <Hero />
       <Projects />
       <LiveWebsite />
+      <Arts />
       <About />
       <Contact />
       <Footer />
