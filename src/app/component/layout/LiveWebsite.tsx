@@ -3,7 +3,7 @@ import React, { useRef, useState } from 'react';
 import Image from 'next/image';
 import live1 from '../../../../public/Assets/live1.png';
 import live2 from '../../../../public/Assets/live2.png';
-import live3 from '../../../../public/Assets/live3.png';
+import live3 from '../../../../public/Assets/live3.svg';
 // import Slider from 'react-slick';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useMediaQuery } from 'react-responsive';
@@ -11,6 +11,7 @@ import 'swiper/css';
 // import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
+import Link from 'next/link';
 
 const LiveWebsite = () => {
   const isLargeScreen = useMediaQuery({ minWidth: 1024 });
@@ -38,83 +39,96 @@ const LiveWebsite = () => {
             className='mySwiper h-[20rem]'
           >
             <SwiperSlide className='lg:mr-5 '>
-              <div className='flex flex-col justify-center items-center'>
-                <Image
-                  src={live1}
-                  alt='live website'
-                  className='mac:w-[21.83881rem] md:mx-0 w-[18.83881rem] md:w-[15.83881rem] lg:w-[16.83881rem] xl:w-[17.53881rem] mac:h-[12.70075rem] xl:h-[10.70075rem]'
-                  priority
-                />
-                <p className='text-[#5933A7] lg:text-lg text-base md:text-base xl:text-[1.5rem] font-semibold leading-normal text-center pt-5'>
-                  EPPCHECK
-                </p>
-              </div>
+              <Link href='https://eppcheck.com/'>
+                <div className='flex flex-col justify-center items-center'>
+                  <Image
+                    src={live1}
+                    alt='live website'
+                    className='mac:w-[21.83881rem] md:mx-0 w-[18.83881rem] md:w-[15.83881rem] lg:w-[16.83881rem] xl:w-[17.53881rem] mac:h-[12.70075rem] xl:h-[10.70075rem]'
+                    priority
+                  />
+                  <p className='text-[#5933A7] lg:text-lg text-base md:text-base xl:text-[1.5rem] font-semibold leading-normal text-center pt-5'>
+                    EPPCHECK
+                  </p>
+                </div>
+              </Link>
             </SwiperSlide>
             <SwiperSlide>
-              <div className='flex flex-col justify-center items-center'>
-                <Image
-                  src={live2}
-                  alt='live website'
-                  className='mac:w-[21.83881rem] w-[20.83881rem] md:w-[15.83881rem] lg:w-[16.83881rem] xl:w-[17.53881rem] mac:h-[12.70075rem] xl:h-[10.70075rem]'
-                  priority
-                />
-                <p className='text-[#5933A7] lg:text-lg text-base md:text-base xl:text-[1.5rem] font-semibold leading-normal text-center pt-5'>
-                  SASK LOTTERIES
-                </p>
-              </div>
+              <Link href='https://sasklotteries.ca/'>
+                {' '}
+                <div className='flex flex-col justify-center items-center'>
+                  <Image
+                    src={live2}
+                    alt='live website'
+                    className='mac:w-[21.83881rem] w-[20.83881rem] md:w-[15.83881rem] lg:w-[16.83881rem] xl:w-[17.53881rem] mac:h-[12.70075rem] xl:h-[10.70075rem]'
+                    priority
+                  />
+                  <p className='text-[#5933A7] lg:text-lg text-base md:text-base xl:text-[1.5rem] font-semibold leading-normal text-center pt-5'>
+                    SASK LOTTERIES
+                  </p>
+                </div>
+              </Link>
             </SwiperSlide>
             <SwiperSlide className='lg:mr-7 xl:mr-10'>
-              <div className='flex flex-col justify-center items-center'>
-                <Image
-                  src={live3}
-                  alt='live website'
-                  className='mac:w-[21.83881rem] w-[20.83881rem] md:w-[15.83881rem] lg:w-[16.83881rem] xl:w-[17.53881rem] mac:h-[12.70075rem] xl:h-[10.70075rem]'
-                  priority
-                />
-                <p className='text-[#5933A7] lg:text-lg text-base md:text-base xl:text-[1.5rem] font-semibold leading-normal text-center pt-5'>
-                  VANTAGE AG
-                </p>
-              </div>
+              <Link href='https://vantage.ag/'>
+                <div className='flex flex-col justify-center items-center'>
+                  <Image
+                    src={live3}
+                    alt='live website'
+                    className='mac:w-[21.83881rem] w-[20.83881rem] md:w-[15.83881rem] lg:w-[16.83881rem] xl:w-[17.53881rem] mac:h-[12.70075rem] xl:h-[10.70075rem]'
+                    priority
+                  />
+                  <p className='text-[#5933A7] lg:text-lg text-base md:text-base xl:text-[1.5rem] font-semibold leading-normal text-center pt-5'>
+                    VANTAGE AG
+                  </p>
+                </div>
+              </Link>
             </SwiperSlide>
             <SwiperSlide className=''>
-              <div className='flex flex-col justify-center items-center'>
-                <Image
-                  src={live1}
-                  alt='live website'
-                  className='mac:w-[21.83881rem] w-[20.83881rem] md:w-[15.83881rem] lg:w-[16.83881rem] xl:w-[17.53881rem] mac:h-[12.70075rem] xl:h-[11.70075rem]'
-                  priority
-                />
-                <p className='text-[#5933A7] lg:text-lg text-base md:text-base xl:text-[1.5rem] font-semibold leading-normal text-center pt-5'>
-                  EPPCHECK
-                </p>
-              </div>
+              <Link href='https://eppcheck.com/'>
+                <div className='flex flex-col justify-center items-center'>
+                  <Image
+                    src={live1}
+                    alt='live website'
+                    className='mac:w-[21.83881rem] w-[20.83881rem] md:w-[15.83881rem] lg:w-[16.83881rem] xl:w-[17.53881rem] mac:h-[12.70075rem] xl:h-[11.70075rem]'
+                    priority
+                  />
+                  <p className='text-[#5933A7] lg:text-lg text-base md:text-base xl:text-[1.5rem] font-semibold leading-normal text-center pt-5'>
+                    EPPCHECK
+                  </p>
+                </div>
+              </Link>
             </SwiperSlide>
 
             <SwiperSlide className=''>
-              <div className='flex flex-col justify-center items-center'>
-                <Image
-                  src={live3}
-                  alt='live website'
-                  className='mac:w-[21.83881rem] w-[20.83881rem] md:w-[15.83881rem] lg:w-[16.83881rem] xl:w-[17.53881rem] mac:h-[12.70075rem] xl:h-[11.70075rem]'
-                  priority
-                />
-                <p className='text-[#5933A7] lg:text-lg text-base md:text-base xl:text-[1.5rem] font-semibold leading-normal text-center pt-5'>
-                  VANTAGE AG
-                </p>
-              </div>
+              <Link href='https://vantage.ag/'>
+                <div className='flex flex-col justify-center items-center'>
+                  <Image
+                    src={live2}
+                    alt='live website'
+                    className='mac:w-[21.83881rem] w-[20.83881rem] md:w-[15.83881rem] lg:w-[16.83881rem] xl:w-[17.53881rem] mac:h-[12.70075rem] xl:h-[11.70075rem]'
+                    priority
+                  />
+                  <p className='text-[#5933A7] lg:text-lg text-base md:text-base xl:text-[1.5rem] font-semibold leading-normal text-center pt-5'>
+                    VANTAGE AG
+                  </p>
+                </div>
+              </Link>
             </SwiperSlide>
             <SwiperSlide className=''>
-              <div className='flex flex-col justify-center items-center'>
-                <Image
-                  src={live2}
-                  alt='live website'
-                  className='mac:w-[21.83881rem] w-[20.83881rem] md:w-[15.83881rem] lg:w-[16.83881rem] xl:w-[17.53881rem] mac:h-[12.70075rem] xl:h-[11.70075rem]'
-                  priority
-                />
-                <p className='text-[#5933A7] lg:text-lg text-base md:text-base xl:text-[1.5rem] font-semibold leading-normal text-center pt-5'>
-                  SASK LOTTERIES
-                </p>
-              </div>
+              <Link href='https://sasklotteries.ca/'>
+                <div className='flex flex-col justify-center items-center'>
+                  <Image
+                    src={live3}
+                    alt='live website'
+                    className='mac:w-[21.83881rem] w-[20.83881rem] md:w-[15.83881rem] lg:w-[16.83881rem] xl:w-[17.53881rem] mac:h-[12.70075rem] xl:h-[11.70075rem]'
+                    priority
+                  />
+                  <p className='text-[#5933A7] lg:text-lg text-base md:text-base xl:text-[1.5rem] font-semibold leading-normal text-center pt-5'>
+                    SASK LOTTERIES
+                  </p>
+                </div>
+              </Link>
             </SwiperSlide>
             <SwiperSlide className='xl:mr-10  lg:mx-0'>
               <div className='flex flex-col justify-center items-center'>

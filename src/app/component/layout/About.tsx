@@ -1,12 +1,21 @@
 import React from 'react';
 import Image from 'next/image';
 import arts from '../../../../public/Assets/arts.png';
+import flowers from '../../../../public/Assets/flowers.svg';
 
 const About = () => {
   return (
-    <section className='md:h-[29rem] xl:h-[49rem] lg:h-[41.5rem] bg-[rgb(233,211,202)]'>
+    <section className='md:h-[29rem] h-full relative xl:h-[49rem] lg:h-[41.5rem] bg-[rgb(233,211,202)]'>
+      <Image
+        src={flowers}
+        alt='illustration'
+        className=''
+        //   width={85}
+        //   height={20}
+        priority
+      />
       <div
-        className='mac:max-w-[83rem] pro:max-w-[52rem] lg:max-w-[59rem] max-w-[22rem] md:max-w-[45rem] xl:max-w-[72rem] mx-auto flex flex-col-reverse justify-center items-center md:flex-row md:justify-between'
+        className='mac:max-w-[83rem] absolute inset-0 pro:max-w-[52rem] lg:max-w-[59rem] max-w-[22rem] md:max-w-[45rem] xl:max-w-[72rem] mx-auto flex flex-col-reverse justify-center items-center md:flex-row md:justify-between'
         id='section2'
       >
         <Image
@@ -18,11 +27,11 @@ const About = () => {
           priority
         />
 
-        <div className='lg:pt-[7rem] pt-[2rem] md:pt-[3.5rem] pb-[3.5rem]'>
-          <h2 className='text-[#5933A7] px-3 md:px-0 lg:text-[1.5rem] xl:text-[2rem] pb-[1rem] font-semibold tracking-[8px] md:tracking-[1rem] leading-normal'>
+        <div className='lg:pt-[7rem] pt-[2rem] md:pt-[3.5rem] pb-[2.5rem]'>
+          <h2 className='text-[#5933A7] px-3 md:px-0 text-center md:text-right lg:text-[1.5rem] xl:text-[2rem] pb-[1rem] font-semibold tracking-[8px] md:tracking-[1rem] leading-normal'>
             ABOUT ME
           </h2>
-          <p className='text-[#43055F] text-sm px-3 md:px-0 md:text-xs lg:text-[1rem] xl:text-[1.226rem] mac:text-[1.42rem] leading-normal font-medium md:leading-normal text-justify'>
+          <p className='text-[#43055F] text-xs small:text-sm px-3 md:px-0 md:text-xs lg:text-[1rem] xl:text-[1.226rem] mac:text-[1.42rem] leading-normal font-medium md:leading-normal text-justify'>
             As a visual designer and illustrator, I am committed to crafting
             designs that are not only beautiful, but also purposeful and
             impactful. I believe that design has the power to make a difference,
