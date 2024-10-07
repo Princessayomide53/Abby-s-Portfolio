@@ -34,7 +34,7 @@ const Projects: React.FC = () => {
       </h3>
       <div className='xl:max-w-[72rem] pro:max-w-[52rem] md:max-w-[45rem] px-2 small:max-w-[22rem] mac:max-w-[81rem] lg:max-w-[59rem] mx-auto space-y-[2rem] md:space-y-[3.44rem] '>
         {Projects.map((item) => (
-          <div className='relative z-20'>
+          <div className='relative z-20' key={item.id}>
             <h3 className='tracking-[0.09175rem] pb-3 md:hidden font-bold leading-normal text-[#391D70] text-[0.45875rem]'>
               {item.text}
             </h3>
