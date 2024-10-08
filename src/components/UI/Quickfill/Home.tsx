@@ -3,6 +3,7 @@ import Hero from './Hero';
 import Overview from './Overview';
 import Users from './Users';
 import Research from './Research';
+import Features from './Features';
 
 type Props = {};
 
@@ -13,6 +14,7 @@ const Home = (props: Props) => {
       <Overview />
       <Users />
       <Research />
+      <Features />
     </section>
   );
 };
