@@ -8,7 +8,7 @@ import Figpie3 from '../../../../public/Assets/Figpie3.svg';
 const Overview = () => {
   return (
     <section className=''>
-      <article className=' xl:max-w-[72rem] mt-5 pro:max-w-[52rem] md:max-w-[45rem] max-w-[22rem] mac:max-w-[83rem] lg:max-w-[59rem] mx-auto rounded-2xl w-full h-[22.3125rem] p-10'>
+      <article className=' xl:max-w-[72rem] mt-5 pro:max-w-[52rem] md:max-w-[45rem] max-w-[22rem] mac:max-w-[83rem] lg:max-w-[59rem] mx-auto rounded-2xl w-full h-full p-10'>
         <h4 className='text-[#5933A7] text-[2rem] -mt-4 tracking-[0.5rem] leading-normal font-semibold'>
           OVERVIEW
         </h4>
