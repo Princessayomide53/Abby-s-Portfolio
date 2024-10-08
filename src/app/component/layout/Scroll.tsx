@@ -1,6 +1,6 @@
-"use client";
-import "../../styles.css";
-import { useRef } from "react";
+'use client';
+import '../../styles.css';
+import { useRef } from 'react';
 import {
   motion,
   useScroll,
@@ -9,8 +9,8 @@ import {
   useMotionValue,
   useVelocity,
   useAnimationFrame,
-} from "framer-motion";
-import { wrap } from "@motionone/utils";
+} from 'framer-motion';
+import { wrap } from '@motionone/utils';
 
 interface ParallaxProps {
   children: any;
@@ -63,8 +63,8 @@ function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
    * dynamically generated number of children.
    */
   return (
-    <div className="parallax">
-      <motion.div className="scroller" style={{ x }}>
+    <div className='parallax'>
+      <motion.div className='scroller' style={{ x }}>
         <span>{children} </span>
         <span>{children} </span>
         <span>{children} </span>
@@ -77,24 +77,24 @@ function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
 export default function App() {
   return (
     <section>
-      <ParallaxText baseVelocity={-5}>
-        <div className="flex space-x-[3.5rem]">
-          <p className="font-medium">Visual designer.</p>
-          <p className="fonts font-medium">Product Designer.</p>
+      <ParallaxText baseVelocity={-3}>
+        <div className='flex space-x-[3.5rem]'>
+          <p className='font-medium'>Visual designer.</p>
+          <p className='fonts font-medium'>Product Designer.</p>
           <p
-            style={{ fontFamily: "Allita", fontWeight: "800" }}
-            className="lg:text-5xl mac:text-6xl text-[26px] mt-3 md:text-[55px] lg:mt-5 md:mt-3 font-bold"
+            style={{ fontFamily: 'Allita', fontWeight: '800' }}
+            className='lg:text-5xl mac:text-6xl text-[26px] mt-3 md:text-[55px] lg:mt-5 md:mt-3 font-bold'
           >
             illustrator.
           </p>
         </div>
       </ParallaxText>
-      <ParallaxText baseVelocity={5}>
-        <div className="flex space-x-[3.5rem]">
-          <p className="fonts">Visual designer.</p>
+      <ParallaxText baseVelocity={3}>
+        <div className='flex space-x-[3.5rem]'>
+          <p className='fonts'>Visual designer.</p>
           <p
-            style={{ fontFamily: "Allita", fontWeight: "800" }}
-            className="lg:text-5xl mac:text-6xl text-[26px] mt-3 md:text-[50px] lg:mt-5  md:mt-5 font-bold"
+            style={{ fontFamily: 'Allita', fontWeight: '800' }}
+            className='lg:text-5xl mac:text-6xl text-[26px] mt-3 md:text-[50px] lg:mt-5  md:mt-5 font-bold'
           >
             Product Designer.
           </p>
