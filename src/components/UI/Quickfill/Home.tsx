@@ -4,6 +4,7 @@ import Overview from './Overview';
 import Users from './Users';
 import Research from './Research';
 import Features from './Features';
+import Footer from '@/app/component/layout/Footer';
 
 type Props = {};
 
@@ -15,6 +16,7 @@ const Home = (props: Props) => {
       <Users />
       <Research />
       <Features />
+      <Footer />
     </section>
   );
 };

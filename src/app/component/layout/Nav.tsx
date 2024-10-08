@@ -222,7 +222,14 @@ const Nav: React.FC = () => {
                 </ul>
                 <ul className='flex pt-20 px-2 lg:hidden'>
                   <li className='text-[#5933A7] lg:text-[1.1rem] xl:text-[1.35rem] font-medium underline leading-normal'>
-                    <Link href='/illustration'> Illustration portfolio</Link>
+                    <Link
+                      href='/illustration'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      {' '}
+                      Illustration portfolio
+                    </Link>
                   </li>
                 </ul>
               </div>

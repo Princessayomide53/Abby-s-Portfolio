@@ -5,7 +5,6 @@ import hanging from '../../../../public/Assets/hanging.svg';
 import side from '../../../../public/Assets/sideX.svg';
 import book from '../../../../public/Assets/book.svg';
 import abstract from '../../../../public/Assets/abstract.svg';
-
 import Link from 'next/link';
 import Footer from '../../../app/component/layout/Footer';
 
@@ -54,28 +53,30 @@ const Billboard = () => {
             </svg>{' '}
             PREV
           </button>
-          <button className='rounded-full text-[#5E1DBB] text-[1.125rem] font-semibold tracking-[0.25rem] py-2 px-10 flex gap-5 items-center bg-[#E9D3CA]'>
-            NEXT{' '}
-            <svg
-              xmlns='http://www.w3.org/2000/svg'
-              width='13'
-              height='23'
-              viewBox='0 0 13 23'
-              fill='none'
-            >
-              <path
-                d='M2 21L11 11.5L2 21ZM11 11.5L2 2L11 11.5Z'
-                fill='#5E1DBB'
-              />
-              <path
-                d='M2 21L11 11.5L2 2'
-                stroke='#5933A7'
-                stroke-width='4'
-                stroke-linecap='round'
-                stroke-linejoin='round'
-              />
-            </svg>
-          </button>
+          <Link href='/Gatsby'>
+            <button className='rounded-full text-[#5E1DBB] text-[1.125rem] font-semibold tracking-[0.25rem] py-2 px-10 flex gap-5 items-center bg-[#E9D3CA]'>
+              NEXT{' '}
+              <svg
+                xmlns='http://www.w3.org/2000/svg'
+                width='13'
+                height='23'
+                viewBox='0 0 13 23'
+                fill='none'
+              >
+                <path
+                  d='M2 21L11 11.5L2 21ZM11 11.5L2 2L11 11.5Z'
+                  fill='#5E1DBB'
+                />
+                <path
+                  d='M2 21L11 11.5L2 2'
+                  stroke='#5933A7'
+                  stroke-width='4'
+                  stroke-linecap='round'
+                  stroke-linejoin='round'
+                />
+              </svg>
+            </button>
+          </Link>
         </div>
       </div>
       <div className='bg-[#FFF4EF]'>

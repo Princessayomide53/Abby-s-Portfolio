@@ -45,7 +45,7 @@ const Arts = (props: Props) => {
           <div className='relative' key={items.id}>
             <Image src={items.img} priority alt='arts' />
             <Link href={items.Link}>
-              <div className='absolute bottom-0 right-0'>
+              <div className='absolute bottom-0 right-0 z-20'>
                 <button className='text-[#391D70] flex gap-2 items-center ml-auto mt-auto bg-white py-2 md:py-3 px-2 md:px-4 font-semibold rounded-tl-md rounded-br-sm rounded-bl-lg text-[10px] md:text-[1rem] leading-normal tracking-[0.045rem] md:tracking-[0.1375rem]'>
                   {items.text}
                   <svg
