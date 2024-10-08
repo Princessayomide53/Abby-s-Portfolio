@@ -9,7 +9,7 @@ const Contact = () => {
       <p className='text-[#5933A7] text-xs md:text-base xl:text-xl mac:text-[1.3rem] font-medium text-center pt-[1.13rem] lg:pt-[2.13rem] leading-normal tracking-[5px] md:tracking-[15px] lg:tracking-[1.4rem]'>
         LINKEDIN | DRIBBLE | BEHANCE{' '}
       </p>
-      <div className='md:max-w-[38rem] max-w-[21rem] lg:max-w-[50rem] mx-auto py-7 md:py-0 md:pt-10 lg:pt-14 pb-10'>
+      <div className='md:max-w-[38rem] max-w-[21rem] lg:max-w-[50rem] mx-auto px-2 md:px-0 py-7 md:py-0 md:pt-10 lg:pt-14 pb-10'>
         <form className='space-y-[1.5rem] md:space-y-[2rem]'>
           <div className=''>
             <label
