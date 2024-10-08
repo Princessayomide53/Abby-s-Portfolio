@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
       </div>
       <div className='xl:max-w-[72rem] mac:max-w-[83rem] md:max-w-[45rem] lg:max-w-[60rem] max-w-[20rem] mt-[17rem] mx-auto flex flex-col justify-center items-center md:-mt-[22rem] lg:-mt-[18rem]'>
         <p className='text-[#5933A7] text-xs tracking-[0.6px] w-full md:text-[1rem]  text-center font-semibold  leading-normal md:tracking-[0.3524578rem] lg:tracking-[0.5524578rem] xl:tracking-[0.9524578rem] mac:tracking-[1.1524578rem] uppercase'>
-          crafting experiences that uplift and inspire.
+          Crafting purposeful designs with creativity and insight
         </p>
 
         {/* <h3 className='text-[#5933A7] md:text-[1.25rem] pt-[3.7rem] tracking-[10px] text-base lg:text-[2rem] mac:pt-[4rem] md:pt-[5rem] lg:pt-[5rem] text-center font-semibold leading-normal md:tracking-[1rem]'>
