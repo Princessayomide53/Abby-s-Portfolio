@@ -14,13 +14,13 @@ const Arts = (props: Props) => {
       id: 1,
       img: flight,
       text: 'VIEW PROJECT',
-      Link: '/flight',
+      Link: '/Green-africa',
     },
     {
       id: 2,
       img: omo,
       text: 'VIEW PROJECT',
-      Link: '/omo',
+      Link: '/Omo',
     },
     {
       id: 3,

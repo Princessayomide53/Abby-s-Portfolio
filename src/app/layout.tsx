@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Inter, Montserrat, Arapey } from 'next/font/google';
 import './globals.css';
 
-const inter = Montserrat({ subsets: ['latin'] });
+const mon = Montserrat({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: "Abieyuwa Adeseiye's Portfolio",
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={inter.className}>{children}</body>
+      <body className={mon.className}>{children}</body>
     </html>
   );
 }
