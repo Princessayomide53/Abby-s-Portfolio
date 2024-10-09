@@ -1,12 +1,13 @@
 import React from 'react';
-import Home from '@/components/UI/Xperienzers/Home';
+import Home from '@/components/UI/Xperienzers/Xperienzer';
+import Xperienzer from '@/components/UI/Xperienzers/Xperienzer';
 
 type Props = {};
 
 const page = (props: Props) => {
   return (
     <div>
-      <Home />
+      <Xperienzer />
       {/* Add your custom components here */}
     </div>
   );

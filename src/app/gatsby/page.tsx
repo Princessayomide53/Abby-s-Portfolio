@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from '@/components/UI/Epp/Home';
+import Home from '@/components/UI/Epp/Gatsby';
 
 type Props = {};
 

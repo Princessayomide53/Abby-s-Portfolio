@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from '@/components/UI/Quickfills/Home';
+import Home from '@/components/UI/Quickfills/Quickfill';
 
 type Props = {};
 

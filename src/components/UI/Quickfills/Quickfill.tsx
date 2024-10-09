@@ -8,7 +8,7 @@ import Footer from '@/app/component/layout/Footer';
 
 type Props = {};
 
-const Home = (props: Props) => {
+const Quickfill = (props: Props) => {
   return (
     <section>
       <Hero />
@@ -21,4 +21,4 @@ const Home = (props: Props) => {
   );
 };
 
-export default Home;
+export default Quickfill;

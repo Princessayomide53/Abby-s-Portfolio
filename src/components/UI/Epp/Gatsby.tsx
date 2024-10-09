@@ -4,7 +4,7 @@ import Hero from './Hero';
 import Overview from './Overview';
 import Billboard from './Billboard';
 
-const Home = () => {
+const Gatsby = () => {
   return (
     <section>
       <Hero />
@@ -14,4 +14,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Gatsby;
