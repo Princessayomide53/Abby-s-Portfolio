@@ -1,11 +1,13 @@
 import React from 'react';
-import Home from '../../components/UI/Epp/Home';
+import Home from '@/components/UI/Epp/Home';
 
-const page = () => {
+type Props = {};
+
+const page = (props: Props) => {
   return (
-    <section>
+    <div>
       <Home />
-    </section>
+    </div>
   );
 };
 
