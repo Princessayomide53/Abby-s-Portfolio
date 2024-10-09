@@ -11,22 +11,20 @@ const Projects: React.FC = () => {
     {
       id: 1,
       img: epp2,
-
       text: 'PRODUCT DESIGN | CASE STUDY',
-      Link: '/QuickFill',
+      Link: '/quickfill',
     },
     {
       id: 2,
       img: xperiencer2,
-
       text: 'VISUAL DESIGN | BRANDING',
-      Link: '/Xperienzer',
+      Link: '/xperienzer',
     },
     {
       id: 3,
       img: gatsby2,
       text: 'VISUAL DESIGN | BRANDING',
-      Link: '/Gatsby',
+      Link: '/gatsby',
     },
   ];
   return (
