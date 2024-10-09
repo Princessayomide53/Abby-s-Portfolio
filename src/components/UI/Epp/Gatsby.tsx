@@ -6,11 +6,11 @@ import Billboard from './Billboard';
 
 const Gatsby = () => {
   return (
-    <section>
+    <div>
       <Hero />
       <Overview />
       <Billboard />
-    </section>
+    </div>
   );
 };
 

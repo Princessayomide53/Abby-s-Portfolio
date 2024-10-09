@@ -2,9 +2,7 @@ import React from 'react';
 import Home from '@/components/UI/Xperienzers/Xperienzer';
 import Xperienzer from '@/components/UI/Xperienzers/Xperienzer';
 
-type Props = {};
-
-const page = (props: Props) => {
+const page = () => {
   return (
     <div>
       <Xperienzer />

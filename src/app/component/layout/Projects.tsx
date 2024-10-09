@@ -39,7 +39,7 @@ const Projects: React.FC = () => {
               {item.text}
             </h3>
             <Link href={item.Link}>
-              <Image src={item.img} priority alt='PROJECTS' className='z-20' />
+              <Image src={item.img} priority alt='PROJECTS' className='' />
             </Link>
             <h3 className='w-[15rem] hidden md:flex text-[9px] md:w-[22.1875rem] lg:w-[30.1875rem] absolute inset-0 rounded-xl items-center justify-center mt-auto mb-3 ml-6 h-[3.625rem] bg-white/80 backdrop-blur-[7.5px] text-xs lg:text-lg text-[#391D70] tracking-[0.25rem] font-bold leading-normal'>
               {item.text}

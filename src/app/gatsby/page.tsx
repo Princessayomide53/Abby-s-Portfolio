@@ -1,12 +1,12 @@
 import React from 'react';
-import Home from '@/components/UI/Epp/Gatsby';
+import Gatsby from '@/components/UI/Epp/Gatsby';
 
 type Props = {};
 
 const page = (props: Props) => {
   return (
     <div>
-      <Home />
+      <Gatsby />
     </div>
   );
 };

@@ -10,14 +10,14 @@ type Props = {};
 
 const Quickfill = (props: Props) => {
   return (
-    <section>
+    <div>
       <Hero />
       <Overview />
       <Users />
       <Research />
       <Features />
       <Footer />
-    </section>
+    </div>
   );
 };
 
