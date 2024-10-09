@@ -11,7 +11,7 @@ const Projects: React.FC = () => {
     {
       id: 1,
       img: epp2,
-      Link: '/Quickfill',
+      Link: '/QuickFill',
       text: 'PRODUCT DESIGN | CASE STUDY',
     },
     {
