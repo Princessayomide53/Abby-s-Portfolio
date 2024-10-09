@@ -6,7 +6,7 @@ import Research from './Research';
 import Features from './Features';
 import Footer from '@/app/component/layout/Footer';
 
-const QuickFill = () => {
+const Quickfill = () => {
   return (
     <div>
       <Hero />
@@ -19,4 +19,4 @@ const QuickFill = () => {
   );
 };
 
-export default QuickFill;
+export default Quickfill;
