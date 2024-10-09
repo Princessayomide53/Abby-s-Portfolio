@@ -6,9 +6,7 @@ import Research from './Research';
 import Features from './Features';
 import Footer from '@/app/component/layout/Footer';
 
-type Props = {};
-
-const Quickfill = (props: Props) => {
+const QuickFill = () => {
   return (
     <div>
       <Hero />
@@ -21,4 +19,4 @@ const Quickfill = (props: Props) => {
   );
 };
 
-export default Quickfill;
+export default QuickFill;

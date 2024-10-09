@@ -1,5 +1,4 @@
 import React from 'react';
-import Home from '@/components/UI/Xperienzers/Xperienzer';
 import Xperienzer from '@/components/UI/Xperienzers/Xperienzer';
 
 const page = () => {

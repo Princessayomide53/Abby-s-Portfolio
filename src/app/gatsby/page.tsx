@@ -1,9 +1,7 @@
 import React from 'react';
 import Gatsby from '@/components/UI/Epp/Gatsby';
 
-type Props = {};
-
-const page = (props: Props) => {
+const page = () => {
   return (
     <div>
       <Gatsby />

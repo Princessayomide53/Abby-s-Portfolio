@@ -1,13 +1,11 @@
 import React from 'react';
-import Home from '@/components/UI/Quickfills/Quickfill';
-import Quickfill from '@/components/UI/Quickfills/Quickfill';
+// import Home from '@/components/UI/Quickfills/QuickFill';
+import QuickFill from '@/components/UI/Quickfills/QuickFill';
 
-type Props = {};
-
-const page = (props: Props) => {
+const page = () => {
   return (
     <div>
-      <Quickfill />
+      <QuickFill />
     </div>
   );
 };
