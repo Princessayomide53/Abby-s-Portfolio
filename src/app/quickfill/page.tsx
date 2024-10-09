@@ -1,4 +1,4 @@
-import Home from '@/components/UI/Quickfill/Home';
+import Home from '@/components/UI/Quickfills/Home';
 import React from 'react';
 
 type Props = {};

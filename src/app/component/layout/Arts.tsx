@@ -1,7 +1,7 @@
 import React from 'react';
 import omo from '../../../../public/Assets/Omo.svg';
 import lipton from '../../../../public/Assets/Lipton.svg';
-import waistline from '../../../../public/Assets/waistline.svg';
+import Dano from '../../../../public/Assets/Dano.svg';
 import flight from '../../../../public/Assets/flight.svg';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -24,7 +24,7 @@ const Arts = (props: Props) => {
     },
     {
       id: 3,
-      img: waistline,
+      img: Dano,
       text: 'VIEW PROJECT',
       Link: '/Dano',
     },

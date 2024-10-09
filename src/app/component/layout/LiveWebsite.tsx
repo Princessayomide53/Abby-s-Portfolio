@@ -39,7 +39,11 @@ const LiveWebsite = () => {
             className='mySwiper h-[20rem]'
           > */}
           {/* <SwiperSlide className='lg:mr-5 '> */}
-          <Link href='https://eppcheck.com/'>
+          <Link
+            href='https://eppcheck.com/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <div className='flex flex-col justify-center items-center'>
               <Image
                 src={live1}
@@ -54,7 +58,11 @@ const LiveWebsite = () => {
           </Link>
           {/* </SwiperSlide> */}
           {/* <SwiperSlide> */}
-          <Link href='https://sasklotteries.ca/'>
+          <Link
+            href='https://sasklotteries.ca/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             {' '}
             <div className='flex flex-col justify-center items-center'>
               <Image
@@ -70,7 +78,11 @@ const LiveWebsite = () => {
           </Link>
           {/* </SwiperSlide> */}
           {/* <SwiperSlide className='lg:mr-7 xl:mr-10'> */}
-          <Link href='https://vantage.ag/'>
+          <Link
+            href='https://vantage.ag/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <div className='flex flex-col justify-center items-center'>
               <Image
                 src={live3}
