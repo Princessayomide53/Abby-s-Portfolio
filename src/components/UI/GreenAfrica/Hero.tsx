@@ -46,11 +46,11 @@ const Hero = () => {
           GREEN AFRICA
           <br /> AIRLINES
         </h1>
-        <div className='bg-[#FFF4EF] w-full md:w-[34rem] lg:w-[41.1875rem] space-y-[1.56rem] h-[17rem] lg:h-[22.1875rem] rounded-xl px-5 py-3 md:px-12 lg:px-16 md:py-7'>
+        <div className='bg-[#FFF4EF] w-full md:w-[34rem] lg:w-[41.1875rem] space-y-[1.56rem] h-[18rem] lg:h-[22.1875rem] rounded-lg px-5 py-3 md:px-12 lg:px-16 md:py-7'>
           <h4 className='text-[#5933A7] text-lg lg:text-[2rem] tracking-[0.3125rem] md:tracking-[0.5rem] leading-normal font-bold'>
             OVERVIEW
           </h4>
-          <p className='text-black leading-[1.625rem] font-normal text-sm md:leading-[2rem] md:text-base lg:text-xl'>
+          <p className='text-black leading-[1.625rem] font-normal text-sm md:leading-normal lg:leading-[2rem] md:text-[15px] lg:text-xl'>
             Campaign materials for an airline aiming to raise awareness during
             its launch, targeting everyday individuals who typically wouldn’t
             consider traveling by airplane.
