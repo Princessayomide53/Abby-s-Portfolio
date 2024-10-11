@@ -21,7 +21,7 @@ const Hero = () => {
       <Nav />
 
       <Link href='/'>
-        <button className='mt-[7rem] hidden md:mt-[10rem] px-3 small:px-3 md:px-4 mac:px-20 md:flex montserrat gap-3 items-center text-[1.25rem] tracking-[0.25rem] leading-normal font-semibold text-[#5933A7]'>
+        <button className='mt-[7rem] hidden md:mt-[10rem] montserrat px-3 small:px-3 md:px-8 fonts lg:px-14 mac:px-20 md:flex gap-3 items-center text-[1.25rem] tracking-[0.25rem] leading-normal font-medium text-[#5933A7]'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             width='13'
@@ -41,8 +41,8 @@ const Hero = () => {
           Home
         </button>
       </Link>
-      <article className='flex flex-col gap-[1.94rem] md:flex-row md:items-center md:gap-24 justify-end mt-12 xl:max-w-[72rem] pro:max-w-[52rem] md:max-w-[45rem] px-3 small:max-w-[21.5rem] mac:max-w-[81rem] lg:max-w-[59rem] mx-auto'>
-        <h1 className='text-[#5933A7] font-bold md:font-semibold md:leading-[2.75rem] tracking-[0.375rem] md:tracking-[0.625rem] md:text-lg lg:text-[2rem] '>
+      <article className='flex flex-col gap-[1.94rem] md:flex-row md:items-center md:gap-7 justify-end mt-24 xl:max-w-[72rem] pro:max-w-[52rem] md:max-w-[45rem] px-3 small:max-w-[21.5rem] mac:max-w-[81rem] lg:max-w-[59rem] mx-auto'>
+        <h1 className='text-[#5933A7] font-bold md:font-semibold leading-normal lg:leading-[2.5rem]  tracking-[0.375rem] md:tracking-[0.625rem] md:text-lg lg:text-[2rem] '>
           GREEN AFRICA
           <br /> AIRLINES
         </h1>
