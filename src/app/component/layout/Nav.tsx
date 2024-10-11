@@ -67,37 +67,43 @@ const Nav: React.FC = () => {
                 PROJECTS
               </ScrollLink>
             </li>
-            <li className='text-[#2B1851] cursor-pointer lg:text-[1rem] uppercase xl:text-[1.20rem] font-medium tracking-[0.25rem] leading-normal'>
-              <ScrollLink
-                activeClass='active'
-                to='section2'
-                spy={true}
-                smooth={true}
-                // offset={-70} // Adjust this offset as needed
-                duration={500}
-                ref={() => isActive.current()}
-                className={`${activeSection === 'section2' ? 'active' : ''}`}
-                onClick={() => handleSetActiveSection('section2')}
-              >
-                {' '}
-                About
-              </ScrollLink>
-            </li>
-            <li className='text-[#2B1851] cursor-pointer lg:text-[1rem] uppercase xl:text-[1.20rem] font-medium tracking-[0.25rem] leading-normal'>
-              <ScrollLink
-                activeClass='active'
-                to='section3'
-                spy={true}
-                smooth={true}
-                ref={() => isActive.current()}
-                // offset={-70} // Adjust this offset as needed
-                duration={500}
-                className={`${activeSection === 'section3' ? 'active' : ''}`}
-                onClick={() => handleSetActiveSection('section3')}
-              >
-                Contact
-              </ScrollLink>
-            </li>
+            <Link href='/'>
+              <li className='text-[#2B1851] cursor-pointer lg:text-[1rem] uppercase xl:text-[1.20rem] font-medium tracking-[0.25rem] leading-normal'>
+                <ScrollLink
+                  activeClass='active'
+                  to='section2'
+                  spy={true}
+                  smooth={true}
+                  // offset={-70} // Adjust this offset as needed
+                  duration={500}
+                  ref={() => isActive.current()}
+                  className={`${activeSection === 'section2' ? 'active' : ''}`}
+                  onClick={() => handleSetActiveSection('section2')}
+                >
+                  {' '}
+                  About
+                </ScrollLink>
+              </li>
+            </Link>
+
+            <Link href='/'>
+              {' '}
+              <li className='text-[#2B1851] cursor-pointer lg:text-[1rem] uppercase xl:text-[1.20rem] font-medium tracking-[0.25rem] leading-normal'>
+                <ScrollLink
+                  activeClass='active'
+                  to='section3'
+                  spy={true}
+                  smooth={true}
+                  ref={() => isActive.current()}
+                  // offset={-70} // Adjust this offset as needed
+                  duration={500}
+                  className={`${activeSection === 'section3' ? 'active' : ''}`}
+                  onClick={() => handleSetActiveSection('section3')}
+                >
+                  Contact
+                </ScrollLink>
+              </li>
+            </Link>
           </ul>
           <ul className='py-4 lg:mt-3 lg:flex hidden'>
             <IllustrationLink />

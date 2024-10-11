@@ -5,7 +5,7 @@ type Props = {};
 
 const Omo = (props: Props) => {
   return (
-    <div>
+    <div className=''>
       <Hero />
     </div>
   );

@@ -6,12 +6,13 @@ import w2 from '../../../../public/Assets/w2.svg';
 import w3 from '../../../../public/Assets/w3.svg';
 import Link from 'next/link';
 import Footer from '@/app/component/layout/Footer';
+import Button from '../Button';
 
 const Hero = () => {
   return (
     <section className=''>
       <Nav />
-      <button className='mt-[10rem] px-20 flex gap-3 items-center text-[1.25rem] tracking-[0.25rem] leading-normal font-medium text-[#5933A7]'>
+      <button className='mt-[7rem] hidden md:mt-[10rem] montserrat px-3 small:px-3 md:px-8 fonts lg:px-14 mac:px-20 md:flex gap-3 items-center text-[1.25rem] tracking-[0.25rem] leading-normal font-medium text-[#5933A7]'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           width='13'
@@ -30,24 +31,24 @@ const Hero = () => {
         </svg>
         Home
       </button>
-      <article className='flex items-center gap-[7rem] justify-end mt-12 xl:max-w-[72rem] pro:max-w-[52rem] md:max-w-[45rem] max-w-[22rem] mac:max-w-[81rem] lg:max-w-[59rem] mx-auto'>
-        <h1 className='text-[#5933A7] font-semibold leading-normal tracking-[0.625rem] text-[2rem] '>
+      <article className='flex flex-col gap-[1.94rem] md:flex-row md:items-center md:gap-7 justify-end mt-24 xl:max-w-[72rem] pro:max-w-[52rem] md:max-w-[45rem] px-3 small:max-w-[21.5rem] mac:max-w-[81rem] lg:max-w-[59rem] mx-auto'>
+        <h1 className='text-[#5933A7] font-bold md:font-semibold leading-normal lg:leading-[2.5rem]  tracking-[0.375rem] md:tracking-[0.625rem] md:text-lg lg:text-[2rem] '>
           DANO MILK
           <br />
           MOTHER’S DAY
           <br />
           VISUALS
         </h1>
-        <div className='bg-[#FFF4EF] w-[41.1875rem] space-y-[1.56rem] h-[22.1875rem] rounded-lg px-16 py-7'>
-          <h4 className='text-[#5933A7] text-[2rem] tracking-[0.5rem] leading-normal font-bold'>
+        <div className='bg-[#FFF4EF] w-full md:w-[34rem] lg:w-[41.1875rem] space-y-[1.56rem] h-[17rem] lg:h-[22.1875rem] rounded-lg px-5 py-3 md:px-12 lg:px-16 md:py-7'>
+          <h4 className='text-[#5933A7] text-lg lg:text-[2rem] tracking-[0.3125rem] md:tracking-[0.5rem] leading-normal font-bold'>
             OVERVIEW
           </h4>
-          <p className='text-black font-normal leading-[2rem] text-xl'>
+          <p className='text-black leading-[1.625rem] font-normal text-sm md:leading-normal lg:leading-[2rem] md:text-[15px] lg:text-xl'>
             Visuals for a milk brand celebrating mothers by highlighting the
             emotional and physical journey of motherhood after childbirth
           </p>
 
-          <p className='text-black leading-[2rem] text-xl font-normal'>
+          <p className='text-black leading-[1.625rem] md:leading-[2rem] text-sm md:text-base lg:text-xl font-normal'>
             <b className='font-bold'> When:</b> 2019
             <br />
             <b className='font-bold'>Where:</b> DDB
@@ -55,67 +56,13 @@ const Hero = () => {
         </div>
       </article>
 
-      <div className='mt-[8.13rem] space-y-[6.25rem] flex-col items-center flex justify-center'>
+      <div className='mt-[4rem] md:mt-[8.13rem] xl:max-w-[72rem] pro:max-w-[52rem] md:max-w-[40rem] px-3 small:max-w-[21.5rem] mac:max-w-[81rem] lg:max-w-[59rem] mx-auto space-y-[3.25rem] md:space-y-[6.25rem] flex-col items-center flex justify-center'>
         <Image src={w1} alt='' />
         <Image src={w2} alt='' />
         <Image src={w3} alt='' />
       </div>
 
-      <div className='xl:max-w-[72rem] pt-[7rem] pb-44 pro:max-w-[52rem] md:max-w-[45rem] max-w-[22rem] mac:max-w-[81rem] lg:max-w-[59rem] mx-auto flex justify-between items-center'>
-        <Link href='/'>
-          {' '}
-          <h4 className='text-[#5933A7] text-[1.5rem] font-semibold leading-normal tracking-[0.3rem]'>
-            HOMEPAGE
-          </h4>
-        </Link>
-
-        <div className='flex gap-[3.19rem]'>
-          <button className='rounded-full text-[#5E1DBB] text-[1.25rem] font-semibold tracking-[0.25rem] py-2 px-10 flex gap-5 items-center bg-[#E9D3CA]'>
-            <svg
-              xmlns='http://www.w3.org/2000/svg'
-              width='13'
-              height='23'
-              viewBox='0 0 13 23'
-              fill='none'
-            >
-              <path
-                d='M11 21L2 11.5L11 21ZM2 11.5L11 2L2 11.5Z'
-                fill='#5E1DBB'
-              />
-              <path
-                d='M11 21L2 11.5L11 2'
-                stroke='#5933A7'
-                stroke-width='4'
-                stroke-linecap='round'
-                stroke-linejoin='round'
-              />
-            </svg>{' '}
-            PREV
-          </button>
-          <button className='rounded-full text-[#5E1DBB] text-[1.25rem] font-semibold tracking-[0.25rem] py-2 px-10 flex gap-5 items-center bg-[#E9D3CA]'>
-            NEXT{' '}
-            <svg
-              xmlns='http://www.w3.org/2000/svg'
-              width='13'
-              height='23'
-              viewBox='0 0 13 23'
-              fill='none'
-            >
-              <path
-                d='M2 21L11 11.5L2 21ZM11 11.5L2 2L11 11.5Z'
-                fill='#5E1DBB'
-              />
-              <path
-                d='M2 21L11 11.5L2 2'
-                stroke='#5933A7'
-                stroke-width='4'
-                stroke-linecap='round'
-                stroke-linejoin='round'
-              />
-            </svg>
-          </button>
-        </div>
-      </div>
+      <Button />
       <Footer />
     </section>
   );
