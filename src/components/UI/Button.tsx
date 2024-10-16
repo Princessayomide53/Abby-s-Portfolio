@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Button = () => {
   return (
-    <div className='xl:max-w-[72rem] pt-[7rem] pb-20 md:pb-44 pro:max-w-[52rem] md:max-w-[45rem] px-3 small:max-w-[21.5rem] mac:max-w-[81rem] lg:max-w-[59rem] mx-auto flex justify-between items-center'>
+    <div className='xl:max-w-[72rem] pt-[4rem] md:pt-[7rem] pb-20 md:pb-44 pro:max-w-[52rem] md:max-w-[45rem] px-3 small:max-w-[21.5rem] mac:max-w-[81rem] lg:max-w-[59rem] mx-auto flex justify-between items-center'>
       <Link href='/'>
         {' '}
         <h4 className='text-[#5933A7] text-sm md:text-base lg:text-[1.5rem] font-semibold leading-normal tracking-[0.175rem] md:tracking-[0.3rem]'>
