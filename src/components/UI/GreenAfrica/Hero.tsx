@@ -1,16 +1,16 @@
 import React from 'react';
 import Nav from '@/app/component/layout/Nav';
 import Image from 'next/image';
-import A1 from '../../../../public/Assets/A1.svg';
-import A2 from '../../../../public/Assets/A2.svg';
-import A3 from '../../../../public/Assets/A3.svg';
-import A4 from '../../../../public/Assets/A4.svg';
-import A5 from '../../../../public/Assets/A5.svg';
-import A6 from '../../../../public/Assets/A6.svg';
-import A7 from '../../../../public/Assets/A7.svg';
-import A8 from '../../../../public/Assets/A8.svg';
-import A9 from '../../../../public/Assets/A9.svg';
-import A10 from '../../../../public/Assets/A10.svg';
+import A1 from '../../../../public/Assets/A1.jpg';
+import A2 from '../../../../public/Assets/A2.jpg';
+import A3 from '../../../../public/Assets/A3.jpg';
+import A4 from '../../../../public/Assets/A4.jpg';
+import A5 from '../../../../public/Assets/A5.jpg';
+import A6 from '../../../../public/Assets/A6.jpg';
+import A7 from '../../../../public/Assets/A7.jpg';
+import A8 from '../../../../public/Assets/A8.jpg';
+import A9 from '../../../../public/Assets/A9.jpg';
+import A10 from '../../../../public/Assets/A10.jpg';
 import Link from 'next/link';
 import Footer from '@/app/component/layout/Footer';
 import Button from '../Button';
@@ -72,7 +72,7 @@ const Hero = () => {
       </div>
 
       <div className='xl:max-w-[72rem] pro:max-w-[52rem] md:max-w-[40rem] px-3 small:max-w-[21.5rem] mac:max-w-[81rem] lg:max-w-[59rem] mx-auto'>
-        <h5 className='text-[#5933A7] text-left md:text-center mt-[5rem] mb-[3.5rem] md:mt-0 md:mb-0 md:my-[10.06rem] text-[1.25rem] md:text-[1.5rem] font-bold leading-[1.75rem] md:leading-normal tracking-[0.3125rem] md:tracking-[0.375rem]'>
+        <h5 className='text-[#5933A7] text-left md:text-center mt-[5rem] mb-[3.5rem] md:my-[10.06rem] text-[1.25rem] md:text-[1.5rem] font-bold leading-[1.75rem] md:leading-normal tracking-[0.3125rem] md:tracking-[0.375rem]'>
           DESTINATION ANNOUNCEMENT DIGITAL POSTS
         </h5>{' '}
         <div className='grid grid-cols-1 md:grid-cols-2 gap-[2.5rem] md:gap-[4rem] '>
