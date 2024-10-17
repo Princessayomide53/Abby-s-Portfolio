@@ -17,12 +17,12 @@ const Billboard = () => {
         <Image
           src={hanging}
           alt='letterhead2'
-          className='md:-mt-24 -mt-8 z-20 w-[12rem] md:w-[25rem] lg:w-[35rem] xl:w-auto h-auto'
+          className='md:-mt-24 -mt-8 z-20 w-[10rem] small:w-[12rem] md:w-[25rem] lg:w-[35rem] xl:w-auto h-auto'
         />
         <Image
           src={side}
           alt='billboard'
-          className='lg:w-[47rem] w-[16rem] md:w-[33rem] xl:w-auto h-auto md:-mt-5 lg:-mt-0'
+          className='lg:w-[47rem] w-[13rem] small:w-[16rem] md:w-[33rem] xl:w-auto h-auto md:-mt-5 lg:-mt-0'
         />
       </div>
 

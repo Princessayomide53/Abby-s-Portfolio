@@ -12,7 +12,7 @@ import x8 from '../../../../public/Assets/x8.svg';
 const Overview = () => {
   return (
     <section className=''>
-      <article className='bg-[#FFF4EF] xl:max-w-[72rem] mt-7 md:mt-20 pro:max-w-[52rem] md:max-w-[45rem] max-w-[22rem] mac:max-w-[81rem] lg:max-w-[59rem] mx-auto rounded-2xl w-full h-[26.0625rem] md:h-[22.3125rem] p-7 md:p-9 lg:p-12 xl:p-16'>
+      <article className='bg-[#FFF4EF] xl:max-w-[72rem] mt-7 md:mt-20 pro:max-w-[52rem] md:max-w-[45rem] max-w-[22rem] mac:max-w-[81rem] lg:max-w-[59rem] mx-auto rounded-2xl w-full h-[26.0625rem] md:h-[22.3125rem] p-5 small:p-7 md:p-9 lg:p-12 xl:p-16'>
         <h4 className='text-[#5933A7] text-[1.2rem] lg:text-[2rem] tracking-[0.3125rem] md:tracking-[0.5rem] leading-normal font-bold md:font-semibold'>
           OVERVIEW
         </h4>
