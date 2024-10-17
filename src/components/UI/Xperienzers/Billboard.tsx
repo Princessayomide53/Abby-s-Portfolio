@@ -11,11 +11,19 @@ import Button from '../Button';
 
 const Billboard = () => {
   return (
-    <section className='space-y-[2.54rem] mt-12 overflow-hidden'>
+    <section className='space-y-[1.54rem] md:space-y-[2.54rem] mt-12 overflow-hidden max-w-[90rem] mx-auto'>
       <Image src={billboard} alt='billboard' priority />
-      <div className='flex gap-10 justify-between'>
-        <Image src={hanging} alt='letterhead2' />
-        <Image src={side} alt='billboard' />
+      <div className='flex gap-5 md:gap-10 justify-between'>
+        <Image
+          src={hanging}
+          alt='letterhead2'
+          className='md:-mt-24 -mt-8 z-20 w-[12rem] md:w-[25rem] lg:w-[35rem] xl:w-auto h-auto'
+        />
+        <Image
+          src={side}
+          alt='billboard'
+          className='lg:w-[47rem] w-[16rem] md:w-[33rem] xl:w-auto h-auto md:-mt-5 lg:-mt-0'
+        />
       </div>
 
       <Image src={book} alt='billboard' />
