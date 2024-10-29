@@ -3,6 +3,9 @@ import React from 'react';
 import Image from 'next/image';
 import epp2 from '../../../../public/Assets/epp2.svg';
 import gatsby2 from '../../../../public/Assets/gatsby2.svg';
+import gats3 from '../../../../public/Assets/gats3.svg';
+import Quick3 from '../../../../public/Assets/Quick3.svg';
+import xper3 from '../../../../public/Assets/xper3.svg';
 import xperiencer2 from '../../../../public/Assets/xperiencer2.svg';
 import Link from 'next/link';
 
@@ -13,18 +16,21 @@ const Projects: React.FC = () => {
       img: epp2,
       text: 'PRODUCT DESIGN | CASE STUDY',
       Link: '/quickfill',
+      img2: Quick3,
     },
     {
       id: 2,
       img: xperiencer2,
       text: 'VISUAL DESIGN | BRANDING',
       Link: '/xperienzer',
+      img2: xper3,
     },
     {
       id: 3,
       img: gatsby2,
       text: 'VISUAL DESIGN | BRANDING',
       Link: '/gatsby',
+      img2: gats3,
     },
   ];
   return (
@@ -39,7 +45,18 @@ const Projects: React.FC = () => {
               {item.text}
             </h3>
             <Link href={item.Link}>
-              <Image src={item.img} priority alt='PROJECTS' className='' />
+              <Image
+                src={item.img}
+                priority
+                alt='PROJECTS'
+                className='hidden md:block'
+              />
+              <Image
+                src={item.img2}
+                priority
+                alt='PROJECTS'
+                className='block md:hidden'
+              />
             </Link>
             <h3 className='w-[15rem] hidden md:flex text-[9px] md:w-[22.1875rem] lg:w-[30.1875rem] absolute inset-0 rounded-xl items-center justify-center mt-auto mb-3 ml-6 h-[3.625rem] bg-white/80 backdrop-blur-[7.5px] text-xs lg:text-lg text-[#391D70] tracking-[0.25rem] font-bold leading-normal'>
               {item.text}

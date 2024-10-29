@@ -9,12 +9,12 @@ const Overview = () => {
   return (
     <section className=''>
       <article className=' xl:max-w-[72rem] mt-5 pro:max-w-[52rem] md:max-w-[45rem] max-w-[22rem] mac:max-w-[83rem] lg:max-w-[59rem] mx-auto rounded-2xl w-full h-full p-10'>
-        <h4 className='text-[#5933A7] text-[2rem] -mt-4 tracking-[0.5rem] leading-normal font-semibold'>
+        <h4 className='text-[#5933A7] lg:text-[1.35rem] xl:text-[2rem] -mt-4 tracking-[0.5rem] leading-normal font-semibold'>
           OVERVIEW
         </h4>
 
         <div className='flex relative'>
-          <p className='text-black text-xl w-[53rem] font-normal  pt-[1.56rem] leading-[2rem]'>
+          <p className='text-black lg:text-base xl:text-xl lg:w-[30rem] xl:w-[40rem] mac:w-[53rem] font-normal  pt-[1.56rem] leading-[2rem]'>
             Quickfill is a user-friendly mobile application designed to simplify
             the process of purchasing gas cylinder refills and new gas
             cylinders. The app allows users to quickly and conveniently place
@@ -22,26 +22,26 @@ const Overview = () => {
             visiting physical stores.
             <br />
             <br />
-            <b className='text-black font-normal text-[1.25rem] leading-[2rem] pr-5'>
+            <b className='text-black font-normal text-base xl:text-[1.25rem] leading-[2rem] pr-5'>
               <b className='font-bold'>Date:</b> November 2021
             </b>
-            <b className='text-black font-normal text-[1.25rem] leading-[2rem]'>
+            <b className='text-black font-normal text-base xl:text-[1.25rem] leading-[2rem]'>
               <b className='font-bold'>Target:</b> African countries
             </b>
           </p>
           <Image
             src={Q1}
             alt='smartphone'
-            className='object-contain w-[32rem] absolute top-0 right-0 z-30 h-[37rem] -mt-[17rem]'
+            className='object-contain lg:w-[28rem] xl:w-[32rem] absolute  lg:top-0 lg:right-2 xl:right-0 z-30 h-[37rem] -mt-[17rem]'
           />
         </div>
-        <article className='mt-40 px-[4rem] rounded-lg py-[4rem] flex justify-between bg-[#FFF4EF]'>
+        <article className='mac:mt-40 xl:mt-32 lg:mt-24 p-[4rem] rounded-lg flex justify-between bg-[#FFF4EF]'>
           <div>
-            <h3 className='text-[#5933A7] text-[1.5rem] tracking-[0.375rem] font-bold leading-normal'>
+            <h3 className='text-[#5933A7] lg:text-[1.5rem] tracking-[0.375rem] font-bold leading-normal'>
               THE PROBLEM
             </h3>
 
-            <p className='text-black w-[33rem] pt-[0.87rem] font-normal leading-[2rem] text-[1.25rem]'>
+            <p className='text-black lg:w-[21rem] xl:w-[27rem] mac:w-[33rem] pt-[0.87rem] font-normal leading-[2rem] lg:text-base mac:text-[1.25rem]'>
               We understand that buying gas can be a stressful experience. Many
               people have faced the frustration of running out of gas in the
               middle of cooking. Long queues, the hassle of transporting
@@ -50,10 +50,10 @@ const Overview = () => {
             </p>
           </div>
           <div>
-            <h3 className='text-[#5933A7] leading-normal text-[1.5rem] tracking-[0.375rem] font-bold'>
+            <h3 className='text-[#5933A7] leading-normal lg:text-[1.5rem] tracking-[0.375rem] font-bold'>
               THE SOLUTION
             </h3>
-            <p className='text-black w-[33rem] pt-[0.87rem] font-normal leading-[2rem] text-[1.25rem]'>
+            <p className='text-black lg:w-[21rem] xl:w-[27rem] mac:w-[33rem] pt-[0.87rem] font-normal leading-[2rem] lg:text-base mac:text-[1.25rem]'>
               QuickFill is designed to simplify the process of refilling gas and
               purchasing cylinders. With just a few taps on the app, users can
               place an order, and a vendor will handle both pickup and delivery.
@@ -64,37 +64,48 @@ const Overview = () => {
           </div>
         </article>
         <article className='mt-[2.75rem] bg-[#1F0229] w-full py-[2rem]'>
-          <h3 className='pt-[4rem] text-white text-[1.5rem] text-center tracking-[0.375rem] font-bold leading-normal'>
-            {' '}
+          <h3 className='pt-[4rem] text-white text-xl xl:text-[1.5rem] text-center tracking-[0.375rem] font-bold leading-normal'>
             HOW USERS THINK
           </h3>
 
-          <p className='pt-[3.4rem] text-white text-[1.5rem] font-normal leading-normal text-center'>
+          <p className='pt-[3.4rem] text-white text-xl xl:text-[1.5rem] font-normal leading-normal text-center'>
             A research was conducted that gave us some valuable <br />
             insight into the minds of our potential users
           </p>
           <div className='flex justify-around pt-[5.62rem] pb-[2rem]'>
             <div className='flex flex-col items-center gap-[4.65rem]'>
-              <p className='text-white font-bold leading-normal text-[1.25rem]'>
+              <p className='text-white font-bold leading-normal text-sm xl:text-base mac:text-[1.25rem]'>
                 <b className='text-[#FF9900]'>45%</b> prefer to refill
                 <br /> at gas stations
               </p>
-              <Image src={Figpie1} alt='' />
+              <Image
+                src={Figpie1}
+                alt=''
+                className='lg:w-[15rem] lg:h-[15rem] xl:w-[18rem] xl:h-[18rem] mac:w-auto mac:h-auto'
+              />
             </div>
             <div className='flex flex-col items-center gap-[4.65rem]'>
-              <p className='text-white font-bold leading-normal text-[1.25rem]'>
+              <p className='text-white font-bold leading-normal text-sm xl:text-base mac:text-[1.25rem]'>
                 <b className='text-[#FF9900]'>45%</b> prefer to refill
                 <br /> at locations close to them
               </p>
-              <Image src={Figpie2} alt='' />
+              <Image
+                src={Figpie2}
+                alt=''
+                className='lg:w-[15rem] lg:h-[15rem] xl:w-[18rem] xl:h-[18rem] mac:w-auto mac:h-auto'
+              />
             </div>
             <div className='flex flex-col items-center gap-[4.65rem] '>
-              <p className='text-white font-bold leading-normal text-[1.25rem]'>
+              <p className='text-white font-bold leading-normal text-sm xl:text-base mac:text-[1.25rem]'>
                 <b className='text-[#FF9900]'>45%</b> like the idea of
-                <br /> ordering gas refills
+                <br className='' /> ordering gas refills
                 <br /> from their mobile phones
               </p>
-              <Image src={Figpie3} alt='' />
+              <Image
+                src={Figpie3}
+                alt=''
+                className='lg:w-[15rem] lg:h-[15rem] xl:w-[18rem] xl:h-[18rem] mac:w-auto mac:h-auto'
+              />
             </div>
           </div>
         </article>

@@ -7,6 +7,7 @@ import LiveWebsite from './LiveWebsite';
 import Contact from './Contact';
 import Footer from './Footer';
 import Arts from './Arts';
+import Motion from './Motion';
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
       <Projects />
       <LiveWebsite />
       <Arts />
+      <Motion />
       <About />
       <Contact />
       <Footer />
