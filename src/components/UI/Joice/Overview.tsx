@@ -31,8 +31,8 @@ const Overview = () => {
           <br />
           The goal was to develop a brand identity that visually and emotionally
           communicates a sense of peace and positivity. The design needed to
-          feel approachable and uplifting, with elements that convey Joice's
-          core values of joy, calmness, and a break from worries.
+          feel approachable and uplifting, with elements that convey
+          Joice`&apos;`s core values of joy, calmness, and a break from worries.
         </p>
       </article>
       <div className='mt-[3.88rem] md:mt-[5.56rem] lg:mt-[7.56rem] flex justify-center'>
@@ -120,14 +120,15 @@ const Overview = () => {
         </h4>
 
         <p className='text-black text-sm small:text-base md:text-[15.85px] lg:text-lg xl:text-xl font-normal pt-[1.56rem] leading-[2rem]'>
-          The messaging strategy was crafted to align with Joice's mission of
-          being a safe haven for happiness. The tone is positive, warm, and
-          encouraging, inviting people to find joy in the small moments.
+          The messaging strategy was crafted to align with Joice`&apos;`s
+          mission of being a safe haven for happiness. The tone is positive,
+          warm, and encouraging, inviting people to find joy in the small
+          moments.
           <br />
           <br />
-          Taglines such as "Live in the moment, feel the joy" and "Come for the
-          calm, stay for the joy" encapsulate the brand's essence and resonate
-          with its audience.
+          Taglines such as `&apos;`Live in the moment, feel the joy`&apos;` and
+          `&apos;`Come for the calm, stay for the joy`&apos;` encapsulate the
+          brand`&apos;`s essence and resonate with its audience.
         </p>
       </article>
       <div className='mt-[1.87rem] md:mt-[3.13rem] flex justify-center px-2'>
