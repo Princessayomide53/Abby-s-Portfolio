@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
       id: 1,
       img: J1,
       text: 'VISUAL DESIGN | BRANDING',
-      Link: '',
+      Link: '/Joice',
       img2: J2,
     },
     {
