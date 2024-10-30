@@ -87,7 +87,7 @@ const Features = (props: Props) => {
           <br className='hidden md:block' /> vendors
         </p>
       </div>
-      <div className='grid grid-cols-2 md:grid-none gap-[2.81rem] md:flex md:gap-[1rem] mt-[0rem] md:-mt-[7rem] lg:-mt-[11rem] xl:-mt-[16rem]'>
+      <div className='grid grid-cols-2 md:grid-none gap-[2.81rem] md:flex justify-center md:gap-[1rem] mt-[0rem] md:-mt-[7rem] lg:-mt-[11rem] xl:-mt-[16rem]'>
         <Image
           src={F5}
           alt='phones'
@@ -146,8 +146,8 @@ const Features = (props: Props) => {
         </b>
         process
       </p>
-      <div className='w-full bg-[#FFF4EF] rounded-xl mt-[3.27rem] md:mt-[3.87rem] lg:mt-[4.87rem] xl:mt-[5.87rem] mac:mt-[7.27rem] md:h-[22.625rem] lg:h-[25.625rem] py-[1.81rem] px-[1.33rem] md:py-[3.38rem] lg:py-[5.38rem] xl:py-[6.38rem] md:px-[7rem] lg:px-[9rem] xl:px-[12rem] mac:py-[7.38rem] mac:px-[14.5rem]'>
-        <p className='text-black font-normal leading-[1.625rem] md:leading-[2.5rem] text-base lg:text-lg xl:text-[1.25rem]'>
+      <div className='w-full bg-[#FFF4EF] rounded-xl mt-[3.27rem] md:mt-[3.87rem] lg:mt-[4.87rem] xl:mt-[5.87rem] mac:mt-[7.27rem] md:h-[22.625rem] lg:h-[25.625rem] py-[1.81rem] px-[1.33rem] md:py-[3.38rem] lg:py-[5.38rem] xl:py-[6.38rem] md:px-[7rem] lg:px-[9rem] xl:px-[12rem] mac:py-[7.38rem] mac:px-[13.5rem]'>
+        <p className='text-black font-normal leading-[1.625rem] md:leading-[2.5rem] lg:leading-[2.7rem]  text-base lg:text-lg xl:text-[1.25rem]'>
           QuickFill has changed the gas refill experience by offering a simple
           and convenient app that removes the need for trips to the gas station
           and ensures reliable delivery. By addressing common issues and
