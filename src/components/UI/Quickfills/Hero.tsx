@@ -17,7 +17,12 @@ const Hero = () => {
         />
 
         <div className='flex justify-center items-center absolute inset-0'>
-          <Image src={quickLogo} alt='logo' priority className='' />
+          <Image
+            src={quickLogo}
+            alt='logo'
+            priority
+            className='h-[8.62144rem] w-[14rem] md:w-[25rem] lg:w-auto md:h-auto object-contain'
+          />
         </div>
       </div>
     </section>
