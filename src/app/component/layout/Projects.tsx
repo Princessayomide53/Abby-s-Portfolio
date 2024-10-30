@@ -7,30 +7,32 @@ import gats3 from '../../../../public/Assets/gats3.svg';
 import Quick3 from '../../../../public/Assets/Quick3.svg';
 import xper3 from '../../../../public/Assets/xper3.svg';
 import xperiencer2 from '../../../../public/Assets/xperiencer2.svg';
+import J1 from '../../../../public/Assets/J1.svg';
+import J2 from '../../../../public/Assets/J2.svg';
 import Link from 'next/link';
 
 const Projects: React.FC = () => {
   const Projects = [
     {
       id: 1,
+      img: J1,
+      text: 'VISUAL DESIGN | BRANDING',
+      Link: '',
+      img2: J2,
+    },
+    {
+      id: 2,
       img: epp2,
       text: 'PRODUCT DESIGN | CASE STUDY',
       Link: '/quickfill',
       img2: Quick3,
     },
     {
-      id: 2,
+      id: 3,
       img: xperiencer2,
       text: 'VISUAL DESIGN | BRANDING',
       Link: '/xperienzer',
       img2: xper3,
-    },
-    {
-      id: 3,
-      img: gatsby2,
-      text: 'VISUAL DESIGN | BRANDING',
-      Link: '/gatsby',
-      img2: gats3,
     },
   ];
   return (
