@@ -13,6 +13,7 @@ const Motion = () => {
             autoPlay
             muted
             loop
+            controls
             className='h-[15.1875rem] w-[15.1875rem] lg:w-[25.9375rem] md:w-[18.9375rem] md:h-[28.5rem] xl:w-[30.9375rem] mac:w-[37.9375rem] lg:h-[35rem] rounded-xl object-cover'
           ></video>
           <video
@@ -20,6 +21,7 @@ const Motion = () => {
             autoPlay
             muted
             loop
+            controls
             className='h-[15.1875rem] w-[15.1875rem] lg:w-[25.9375rem] md:w-[18.9375rem] md:h-[28.5rem] xl:w-[30.9375rem] mac:w-[37.9375rem] lg:h-[35rem] rounded-xl object-cover'
           ></video>
         </article>
@@ -29,6 +31,7 @@ const Motion = () => {
             autoPlay
             muted
             loop
+            controls
             className='w-[15.25rem] h-[27.125rem] md:w-[13.5rem] md:h-[23.125rem] lg:w-[16.5rem] lg:h-[27.125rem] xl:w-[21.5rem] mac:w-[25.5rem] xl:h-[38.125rem] mac:h-[47.125rem] rounded-xl object-cover'
           ></video>
           <video
@@ -36,6 +39,7 @@ const Motion = () => {
             autoPlay
             muted
             loop
+            controls
             className='w-[15.25rem] h-[27.125rem] md:w-[13.5rem] md:h-[23.125rem] lg:w-[16.5rem] lg:h-[27.125rem] xl:w-[21.5rem] mac:w-[25.5rem] xl:h-[38.125rem] mac:h-[47.125rem] rounded-xl object-cover'
           ></video>
 
@@ -45,6 +49,7 @@ const Motion = () => {
             autoPlay
             muted
             loop
+            controls
             className='w-[15.25rem] h-[27.125rem] md:w-[13.5rem] md:h-[23.125rem] lg:w-[16.5rem] lg:h-[27.125rem] xl:w-[21.5rem] mac:w-[25.5rem] xl:h-[38.125rem] mac:h-[47.125rem] rounded-xl object-cover'
           ></video>
           {/* </div> */}
