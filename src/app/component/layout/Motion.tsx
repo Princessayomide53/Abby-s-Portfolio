@@ -2,7 +2,7 @@ import React from 'react';
 
 const Motion = () => {
   return (
-    <section className='bg-[#FFF4EF] pb-[7.75rem] md:pb-[5.44rem] lg:pb-[10.44rem] md:mb-[5.88rem] lg:mb-[8.88rem]'>
+    <section className='bg-[#FFF4EF] pb-[7.75rem] md:pb-[5.44rem] lg:pb-[10.44rem]'>
       <div className='xl:max-w-[72rem]  pro:max-w-[52rem] md:max-w-[45rem] px-2 small:max-w-[22rem] mac:max-w-[81rem] lg:max-w-[59rem] mx-auto'>
         <h2 className='text-[#5933A7] pt-[2.94rem] md:pt-[4.69rem] text-center font-semibold text-lg md:text-2xl lg:text-[2rem] tracking-[0.625rem] md:tracking-[1rem] leading-normal'>
           MOTION GRAPHICS
